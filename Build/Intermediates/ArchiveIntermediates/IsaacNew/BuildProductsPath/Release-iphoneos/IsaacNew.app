@@ -1,0 +1,1 @@
+/Users/shuwei/works/IsaacNew/Build/Intermediates/ArchiveIntermediates/IsaacNew/InstallationBuildProductsLocation/Applications/IsaacNew.app

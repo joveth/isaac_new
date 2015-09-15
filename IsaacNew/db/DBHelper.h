@@ -1,0 +1,29 @@
+//
+//  DBHelper.h
+//  Isaac
+//
+//  Created by Shuwei on 15/7/2.
+//  Copyright (c) 2015年 Shuwei. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "sqlite3.h"
+#import "User.h"
+
+typedef void (^BOOLCallBack)(BOOL ret);
+
+@interface DBHelper : NSObject
++(id)sharedInstance;
+-(BOOL)openDB;
+-(void)initData:(BOOLCallBack)success;
+-(NSInteger)getCnt;
+-(NSMutableArray *)getIsaacs:(NSString *)offset;
+-(NSMutableArray *)getIsaacsByKey:(NSString *)keyword;
+-(NSMutableArray *)getIsaacsByType:(NSString *)type;
+-(NSMutableArray *)getBoss:(NSString *)offset;
+-(NSMutableArray *)getSmall:(NSString *)offset;
+-(NSMutableArray *)getOtherByType:(NSString *)type;
+-(User *)getUser;
+-(void)saveUser:(User *)user;
+
+@end

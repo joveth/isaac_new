@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/PHomeController.m \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/PHomeController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/thirdlibs/PKRevealController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/thirdlibs/Categories/UIViewController+PKRevealController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/common/Common.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/NewsController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/IsaacTableViewController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/BossController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/SmallController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/SearchViewController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/AboutSomething.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/common/ShareData.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/service/BossBean.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/service/IsaacBean.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/MoreOther.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/MoreController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/db/DBHelper.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/db/User.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/main/LoginController.h \
+  /Users/shuwei/works/IsaacNew/IsaacNew/service/SWDefine.h
