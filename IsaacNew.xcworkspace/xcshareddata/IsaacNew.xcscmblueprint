@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EEF573082C7171B0635DBCE85160A44085F9C12C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EEF573082C7171B0635DBCE85160A44085F9C12C" : 0,
+    "6066868A7905F76F20072D1D83F868680199DD9C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6C5BFD8E-BF07-4C5D-9BE7-0DDC0018C7F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EEF573082C7171B0635DBCE85160A44085F9C12C" : "IsaacNew",
+    "6066868A7905F76F20072D1D83F868680199DD9C" : "Isaac"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IsaacNew",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IsaacNew.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joveth\/Isaac_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6066868A7905F76F20072D1D83F868680199DD9C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joveth\/isaac_new.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EEF573082C7171B0635DBCE85160A44085F9C12C"
+    }
+  ]
+}

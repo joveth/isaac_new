@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6C5BFD8E-BF07-4C5D-9BE7-0DDC0018C7F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IsaacNew</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6066868A7905F76F20072D1D83F868680199DD9C</key>
+		<string>https://github.com/joveth/Isaac_ios.git</string>
+		<key>EEF573082C7171B0635DBCE85160A44085F9C12C</key>
+		<string>https://github.com/joveth/isaac_new.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IsaacNew.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6066868A7905F76F20072D1D83F868680199DD9C</key>
+		<string>../../Isaac</string>
+		<key>EEF573082C7171B0635DBCE85160A44085F9C12C</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/joveth/isaac_new.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EEF573082C7171B0635DBCE85160A44085F9C12C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6066868A7905F76F20072D1D83F868680199DD9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Isaac</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EEF573082C7171B0635DBCE85160A44085F9C12C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IsaacNew</string>
+		</dict>
+	</array>
+</dict>
+</plist>
