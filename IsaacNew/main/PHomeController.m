@@ -136,14 +136,16 @@ static NSString * const reuseIdentifier = @"Cell";
     UIImageView *image =(UIImageView *)[cell.contentView viewWithTag:2] ;
     CGFloat width=self.view.frame.size.width/3;
     if(name==nil){
-        name = [[UILabel alloc] initWithFrame:CGRectMake(5, 65, width-10, 20)];
+        name = [[UILabel alloc] initWithFrame:CGRectMake(5, 50, width-10, 20)];
+        
         name.tag = 1;
         name.textAlignment=NSTextAlignmentCenter;
         name.textColor = [Common colorWithHexString:@"eb4f38"];
         [cell.contentView addSubview:name];
     }
     if(image==nil){
-        image = [[UIImageView alloc] initWithFrame:CGRectMake(width/2-22, 10, 44, 44)];
+        image = [[UIImageView alloc] initWithFrame:CGRectMake(width/2-22, 5, 40, 40)];
+        
         image.tag = 2;
         [cell.contentView addSubview:image];
     }
@@ -204,7 +206,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 }
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
-    CGSize returnSize = CGSizeMake(self.view.frame.size.width/3-10, 90);
+    CGSize returnSize = CGSizeMake(self.view.frame.size.width/3-10, 70);
     return returnSize;
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
@@ -276,6 +278,7 @@ static NSString * const reuseIdentifier = @"Cell";
         [self.navigationController pushViewController:show animated:YES];
     }else if(indexPath.row==13){
         MoreController *show =[[MoreController alloc] init];
+        show.title=@"更多";
         [self.navigationController pushViewController:show animated:YES];
     }
 }
