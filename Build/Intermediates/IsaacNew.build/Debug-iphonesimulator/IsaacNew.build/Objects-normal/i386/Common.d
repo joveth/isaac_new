@@ -1,2 +1,2 @@
-dependencies: /Users/shuwei/works/IsaacNew/IsaacNew/common/Common.m \
-  /Users/shuwei/works/IsaacNew/IsaacNew/common/Common.h
+dependencies: /Users/shuwei/works/teme/IsaacNew/IsaacNew/common/Common.m \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/common/Common.h

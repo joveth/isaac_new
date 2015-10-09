@@ -17,4 +17,5 @@
 + (void)showMessageWithCancelAndOkButton:(NSString*) message andTag:(NSInteger)tag andDelegate: id andCancelMsg:(NSString *)cancelMsg andOkMsg:(NSString *)okMsg;
 + (void)showMessageWithOkButton:(NSString*) message andDelegate:id;
 +(void)showMessage:(NSString*) message seconds:(int)seconds ;
++(CGFloat)clcLine:(CGFloat)width;
 @end

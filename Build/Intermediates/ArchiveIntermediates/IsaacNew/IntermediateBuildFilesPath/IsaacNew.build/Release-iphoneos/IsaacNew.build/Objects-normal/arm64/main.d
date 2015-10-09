@@ -1,2 +1,2 @@
-dependencies: /Users/shuwei/works/IsaacNew/IsaacNew/main.m \
-  /Users/shuwei/works/IsaacNew/IsaacNew/AppDelegate.h
+dependencies: /Users/shuwei/works/teme/IsaacNew/IsaacNew/main.m \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/AppDelegate.h

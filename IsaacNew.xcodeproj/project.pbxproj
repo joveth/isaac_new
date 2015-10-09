@@ -17,10 +17,6 @@
 		F9039BCE1BA2AD82000CFEDC /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9039BCD1BA2AD82000CFEDC /* HomeController.m */; };
 		F9039BD91BA2AF42000CFEDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BD31BA2AF42000CFEDC /* Default-568h@2x.png */; };
 		F9039BDA1BA2AF42000CFEDC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BD41BA2AF42000CFEDC /* Default@2x.png */; };
-		F9039BDB1BA2AF42000CFEDC /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BD51BA2AF42000CFEDC /* icon_120.png */; };
-		F9039BDC1BA2AF42000CFEDC /* 1024@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BD61BA2AF42000CFEDC /* 1024@2x.png */; };
-		F9039BDD1BA2AF42000CFEDC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BD71BA2AF42000CFEDC /* icon.png */; };
-		F9039BDE1BA2AF42000CFEDC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BD81BA2AF42000CFEDC /* icon@2x.png */; };
 		F9039BEE1BA2AF67000CFEDC /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BDF1BA2AF67000CFEDC /* home@2x.png */; };
 		F9039BEF1BA2AF67000CFEDC /* mor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BE01BA2AF67000CFEDC /* mor@2x.png */; };
 		F9039BF01BA2AF67000CFEDC /* rush@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9039BE11BA2AF67000CFEDC /* rush@2x.png */; };
@@ -887,6 +883,36 @@
 		F90D399A1BAF90D50011001F /* gong_image072.png in Resources */ = {isa = PBXBuildFile; fileRef = F90D366B1BAF90D50011001F /* gong_image072.png */; settings = {ASSET_TAGS = (); }; };
 		F90D399B1BAF90D50011001F /* gong_image073.png in Resources */ = {isa = PBXBuildFile; fileRef = F90D366C1BAF90D50011001F /* gong_image073.png */; settings = {ASSET_TAGS = (); }; };
 		F90D399C1BAF90D50011001F /* gong_image074.png in Resources */ = {isa = PBXBuildFile; fileRef = F90D366D1BAF90D50011001F /* gong_image074.png */; settings = {ASSET_TAGS = (); }; };
+		F95E6AD01BBBAF1E0033283A /* isaac_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = F95E6ACC1BBBAF1E0033283A /* isaac_1024.png */; settings = {ASSET_TAGS = (); }; };
+		F95E6AD11BBBAF1E0033283A /* isaac_256@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F95E6ACD1BBBAF1E0033283A /* isaac_256@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F95E6AD21BBBAF1E0033283A /* isaac_120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F95E6ACE1BBBAF1E0033283A /* isaac_120@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F95E6AD31BBBAF1E0033283A /* isaac_114@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F95E6ACF1BBBAF1E0033283A /* isaac_114@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F95E6AD61BBBB3340033283A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E6AD51BBBB3340033283A /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F95E6AD91BBBB6090033283A /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95E6AD81BBBB6090033283A /* MainController.m */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1911BC75383004B54E7 /* Ver2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F6F1901BC75383004B54E7 /* Ver2Controller.m */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1941BC75BA4004B54E7 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1921BC75BA3004B54E7 /* iTunesArtwork.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1951BC75BA4004B54E7 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1931BC75BA4004B54E7 /* iTunesArtwork@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1971BC763FA004B54E7 /* home_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1961BC763FA004B54E7 /* home_search@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1991BC76D91004B54E7 /* home_boss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1981BC76D91004B54E7 /* home_boss@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F19D1BC77B77004B54E7 /* home_seed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F19C1BC77B77004B54E7 /* home_seed@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1A11BC77DB4004B54E7 /* home_luo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1A01BC77DB4004B54E7 /* home_luo@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1A31BC77E31004B54E7 /* home_room@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1A21BC77E31004B54E7 /* home_room@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1A51BC77ED6004B54E7 /* home_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1A41BC77ED6004B54E7 /* home_small@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1A81BC78846004B54E7 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1A61BC78845004B54E7 /* about@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1A91BC78846004B54E7 /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1A71BC78846004B54E7 /* message@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1AD1BC78B7B004B54E7 /* home_two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1AC1BC78B7B004B54E7 /* home_two@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1AF1BC79137004B54E7 /* home_mod@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1AE1BC79137004B54E7 /* home_mod@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1B21BC7AAAD004B54E7 /* switch_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1B01BC7AAAD004B54E7 /* switch_off@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1B31BC7AAAD004B54E7 /* switch_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1B11BC7AAAD004B54E7 /* switch_on@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1B51BC7B484004B54E7 /* other.db in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1B41BC7B484004B54E7 /* other.db */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1B81BC7B5DC004B54E7 /* ModSeedBean.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F6F1B71BC7B5DC004B54E7 /* ModSeedBean.m */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1BA1BC7BA5F004B54E7 /* 8012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1B91BC7BA5F004B54E7 /* 8012.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1BC1BC7BC5E004B54E7 /* hardmod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1BB1BC7BC5E004B54E7 /* hardmod.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1BE1BC7BD1C004B54E7 /* gamemod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1BD1BC7BD1C004B54E7 /* gamemod.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1C01BC7BF63004B54E7 /* cloudmod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1BF1BC7BF63004B54E7 /* cloudmod.png */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1C21BC7C1B9004B54E7 /* lmod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1C11BC7C1B9004B54E7 /* lmod.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1C41BC7C455004B54E7 /* mariomod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1C31BC7C455004B54E7 /* mariomod.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1C61BC7C5F6004B54E7 /* dreammod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1C51BC7C5F6004B54E7 /* dreammod.jpg */; settings = {ASSET_TAGS = (); }; };
 		F9FCFF901BA6589C00943A8F /* PHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FCFF8F1BA6589C00943A8F /* PHomeController.m */; };
 		F9FCFF931BA6727700943A8F /* BossController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FCFF921BA6727700943A8F /* BossController.m */; };
 		F9FCFF9B1BA6747500943A8F /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FCFF951BA6747500943A8F /* RatingView.m */; };
@@ -962,10 +988,6 @@
 		F9039BCD1BA2AD82000CFEDC /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		F9039BD31BA2AF42000CFEDC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9039BD41BA2AF42000CFEDC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F9039BD51BA2AF42000CFEDC /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
-		F9039BD61BA2AF42000CFEDC /* 1024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1024@2x.png"; sourceTree = "<group>"; };
-		F9039BD71BA2AF42000CFEDC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		F9039BD81BA2AF42000CFEDC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		F9039BDF1BA2AF67000CFEDC /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
 		F9039BE01BA2AF67000CFEDC /* mor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mor@2x.png"; sourceTree = "<group>"; };
 		F9039BE11BA2AF67000CFEDC /* rush@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rush@2x.png"; sourceTree = "<group>"; };
@@ -1854,6 +1876,40 @@
 		F90D366B1BAF90D50011001F /* gong_image072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gong_image072.png; sourceTree = "<group>"; };
 		F90D366C1BAF90D50011001F /* gong_image073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gong_image073.png; sourceTree = "<group>"; };
 		F90D366D1BAF90D50011001F /* gong_image074.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gong_image074.png; sourceTree = "<group>"; };
+		F95E6ACC1BBBAF1E0033283A /* isaac_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isaac_1024.png; sourceTree = "<group>"; };
+		F95E6ACD1BBBAF1E0033283A /* isaac_256@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaac_256@2x.png"; sourceTree = "<group>"; };
+		F95E6ACE1BBBAF1E0033283A /* isaac_120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaac_120@2x.png"; sourceTree = "<group>"; };
+		F95E6ACF1BBBAF1E0033283A /* isaac_114@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaac_114@2x.png"; sourceTree = "<group>"; };
+		F95E6AD41BBBB3340033283A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F95E6AD51BBBB3340033283A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F95E6AD71BBBB6090033283A /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		F95E6AD81BBBB6090033283A /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		F9F6F18F1BC75383004B54E7 /* Ver2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ver2Controller.h; sourceTree = "<group>"; };
+		F9F6F1901BC75383004B54E7 /* Ver2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ver2Controller.m; sourceTree = "<group>"; };
+		F9F6F1921BC75BA3004B54E7 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		F9F6F1931BC75BA4004B54E7 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		F9F6F1961BC763FA004B54E7 /* home_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_search@2x.png"; sourceTree = "<group>"; };
+		F9F6F1981BC76D91004B54E7 /* home_boss@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_boss@2x.png"; sourceTree = "<group>"; };
+		F9F6F19C1BC77B77004B54E7 /* home_seed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_seed@2x.png"; sourceTree = "<group>"; };
+		F9F6F1A01BC77DB4004B54E7 /* home_luo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_luo@2x.png"; sourceTree = "<group>"; };
+		F9F6F1A21BC77E31004B54E7 /* home_room@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_room@2x.png"; sourceTree = "<group>"; };
+		F9F6F1A41BC77ED6004B54E7 /* home_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_small@2x.png"; sourceTree = "<group>"; };
+		F9F6F1A61BC78845004B54E7 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		F9F6F1A71BC78846004B54E7 /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		F9F6F1AC1BC78B7B004B54E7 /* home_two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_two@2x.png"; sourceTree = "<group>"; };
+		F9F6F1AE1BC79137004B54E7 /* home_mod@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_mod@2x.png"; sourceTree = "<group>"; };
+		F9F6F1B01BC7AAAD004B54E7 /* switch_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_off@2x.png"; sourceTree = "<group>"; };
+		F9F6F1B11BC7AAAD004B54E7 /* switch_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_on@2x.png"; sourceTree = "<group>"; };
+		F9F6F1B41BC7B484004B54E7 /* other.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = other.db; sourceTree = "<group>"; };
+		F9F6F1B61BC7B5DC004B54E7 /* ModSeedBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModSeedBean.h; sourceTree = "<group>"; };
+		F9F6F1B71BC7B5DC004B54E7 /* ModSeedBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModSeedBean.m; sourceTree = "<group>"; };
+		F9F6F1B91BC7BA5F004B54E7 /* 8012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8012.jpg; sourceTree = "<group>"; };
+		F9F6F1BB1BC7BC5E004B54E7 /* hardmod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardmod.png; sourceTree = "<group>"; };
+		F9F6F1BD1BC7BD1C004B54E7 /* gamemod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamemod.png; sourceTree = "<group>"; };
+		F9F6F1BF1BC7BF63004B54E7 /* cloudmod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudmod.png; sourceTree = "<group>"; };
+		F9F6F1C11BC7C1B9004B54E7 /* lmod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lmod.jpg; sourceTree = "<group>"; };
+		F9F6F1C31BC7C455004B54E7 /* mariomod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mariomod.jpg; sourceTree = "<group>"; };
+		F9F6F1C51BC7C5F6004B54E7 /* dreammod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dreammod.jpg; sourceTree = "<group>"; };
 		F9FCFF8E1BA6589C00943A8F /* PHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHomeController.h; sourceTree = "<group>"; };
 		F9FCFF8F1BA6589C00943A8F /* PHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHomeController.m; sourceTree = "<group>"; };
 		F9FCFF911BA6727700943A8F /* BossController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BossController.h; sourceTree = "<group>"; };
@@ -1976,6 +2032,7 @@
 		F9039BA51BA2AD0A000CFEDC /* IsaacNew */ = {
 			isa = PBXGroup;
 			children = (
+				F9F6F18E1BC75016004B54E7 /* ver2.2 */,
 				F9FCFFB81BA6A46700943A8F /* www */,
 				F903A2B01BA2CC5C000CFEDC /* thirdlibs */,
 				F903A2A11BA2BA78000CFEDC /* view */,
@@ -2057,6 +2114,10 @@
 				F9FCFFF81BA6BC6000943A8F /* RegisterController.m */,
 				F9FCFFFA1BA6CDCC00943A8F /* WebController.h */,
 				F9FCFFFB1BA6CDCC00943A8F /* WebController.m */,
+				F95E6AD41BBBB3340033283A /* MainViewController.h */,
+				F95E6AD51BBBB3340033283A /* MainViewController.m */,
+				F95E6AD71BBBB6090033283A /* MainController.h */,
+				F95E6AD81BBBB6090033283A /* MainController.m */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -2086,6 +2147,31 @@
 		F9039BD21BA2AF30000CFEDC /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				F9F6F1C51BC7C5F6004B54E7 /* dreammod.jpg */,
+				F9F6F1C31BC7C455004B54E7 /* mariomod.jpg */,
+				F9F6F1C11BC7C1B9004B54E7 /* lmod.jpg */,
+				F9F6F1BF1BC7BF63004B54E7 /* cloudmod.png */,
+				F9F6F1BD1BC7BD1C004B54E7 /* gamemod.png */,
+				F9F6F1BB1BC7BC5E004B54E7 /* hardmod.png */,
+				F9F6F1B91BC7BA5F004B54E7 /* 8012.jpg */,
+				F9F6F1B01BC7AAAD004B54E7 /* switch_off@2x.png */,
+				F9F6F1B11BC7AAAD004B54E7 /* switch_on@2x.png */,
+				F9F6F1AE1BC79137004B54E7 /* home_mod@2x.png */,
+				F9F6F1AC1BC78B7B004B54E7 /* home_two@2x.png */,
+				F9F6F1A61BC78845004B54E7 /* about@2x.png */,
+				F9F6F1A71BC78846004B54E7 /* message@2x.png */,
+				F9F6F1A41BC77ED6004B54E7 /* home_small@2x.png */,
+				F9F6F1A21BC77E31004B54E7 /* home_room@2x.png */,
+				F9F6F1A01BC77DB4004B54E7 /* home_luo@2x.png */,
+				F9F6F19C1BC77B77004B54E7 /* home_seed@2x.png */,
+				F9F6F1981BC76D91004B54E7 /* home_boss@2x.png */,
+				F9F6F1961BC763FA004B54E7 /* home_search@2x.png */,
+				F9F6F1921BC75BA3004B54E7 /* iTunesArtwork.png */,
+				F9F6F1931BC75BA4004B54E7 /* iTunesArtwork@2x.png */,
+				F95E6ACC1BBBAF1E0033283A /* isaac_1024.png */,
+				F95E6ACD1BBBAF1E0033283A /* isaac_256@2x.png */,
+				F95E6ACE1BBBAF1E0033283A /* isaac_120@2x.png */,
+				F95E6ACF1BBBAF1E0033283A /* isaac_114@2x.png */,
 				F90D33331BAF90D40011001F /* houner */,
 				F90D33E71BAF90D40011001F /* hung */,
 				F90D34241BAF90D40011001F /* roob */,
@@ -2130,10 +2216,6 @@
 				F9039BED1BA2AF67000CFEDC /* b1@2x.png */,
 				F9039BD31BA2AF42000CFEDC /* Default-568h@2x.png */,
 				F9039BD41BA2AF42000CFEDC /* Default@2x.png */,
-				F9039BD51BA2AF42000CFEDC /* icon_120.png */,
-				F9039BD61BA2AF42000CFEDC /* 1024@2x.png */,
-				F9039BD71BA2AF42000CFEDC /* icon.png */,
-				F9039BD81BA2AF42000CFEDC /* icon@2x.png */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -2141,6 +2223,7 @@
 		F903A28C1BA2B174000CFEDC /* db */ = {
 			isa = PBXGroup;
 			children = (
+				F9F6F1B41BC7B484004B54E7 /* other.db */,
 				F903A2851BA2B024000CFEDC /* Topic.h */,
 				F903A2861BA2B024000CFEDC /* Topic.m */,
 				F903A2921BA2B198000CFEDC /* IsaacBean.h */,
@@ -2152,6 +2235,8 @@
 				F903A28F1BA2B18B000CFEDC /* DBHelper.m */,
 				F9FCFFF11BA6ACF800943A8F /* User.h */,
 				F9FCFFF21BA6ACF800943A8F /* User.m */,
+				F9F6F1B61BC7B5DC004B54E7 /* ModSeedBean.h */,
+				F9F6F1B71BC7B5DC004B54E7 /* ModSeedBean.m */,
 			);
 			path = db;
 			sourceTree = "<group>";
@@ -3137,6 +3222,15 @@
 			path = gong;
 			sourceTree = "<group>";
 		};
+		F9F6F18E1BC75016004B54E7 /* ver2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				F9F6F18F1BC75383004B54E7 /* Ver2Controller.h */,
+				F9F6F1901BC75383004B54E7 /* Ver2Controller.m */,
+			);
+			path = ver2.2;
+			sourceTree = "<group>";
+		};
 		F9FCFFB81BA6A46700943A8F /* www */ = {
 			isa = PBXGroup;
 			children = (
@@ -3301,7 +3395,9 @@
 				F90D36FB1BAF90D50011001F /* houner_image143.png in Resources */,
 				F90D38C71BAF90D50011001F /* small_52.jpg in Resources */,
 				F90D36C91BAF90D50011001F /* houner_image093.png in Resources */,
+				F9F6F1971BC763FA004B54E7 /* home_search@2x.png in Resources */,
 				F90D394D1BAF90D50011001F /* card_image029.jpg in Resources */,
+				F9F6F1C41BC7C455004B54E7 /* mariomod.jpg in Resources */,
 				F90D39391BAF90D50011001F /* card_image009.jpg in Resources */,
 				F90D37E31BAF90D50011001F /* shou_image097.png in Resources */,
 				F90D36961BAF90D50011001F /* houner_image042.png in Resources */,
@@ -3309,6 +3405,7 @@
 				F90D38921BAF90D50011001F /* sign_image005.png in Resources */,
 				F90D37001BAF90D50011001F /* houner_image148.png in Resources */,
 				F90D37A31BAF90D50011001F /* shou_image033.png in Resources */,
+				F9F6F1C01BC7BF63004B54E7 /* cloudmod.png in Resources */,
 				F90D36841BAF90D50011001F /* houner_image024.png in Resources */,
 				F90D38D91BAF90D50011001F /* user_image003.png in Resources */,
 				F90D37E81BAF90D50011001F /* shou_image102.png in Resources */,
@@ -3347,6 +3444,7 @@
 				F9FCFFDF1BA6A47900943A8F /* mimage003.png in Resources */,
 				F90D38141BAF90D50011001F /* shou_image146.png in Resources */,
 				F90D37111BAF90D50011001F /* houner_image165.png in Resources */,
+				F9F6F1A81BC78846004B54E7 /* about@2x.png in Resources */,
 				F90D371F1BAF90D50011001F /* houner_image179.png in Resources */,
 				F90D37BB1BAF90D50011001F /* shou_image057.png in Resources */,
 				F90D36D11BAF90D50011001F /* houner_image101.png in Resources */,
@@ -3402,6 +3500,7 @@
 				F90D38C41BAF90D50011001F /* small_5.jpg in Resources */,
 				F90D39591BAF90D50011001F /* gong_image007.png in Resources */,
 				F90D39471BAF90D50011001F /* card_image023.jpg in Resources */,
+				F9F6F1941BC75BA4004B54E7 /* iTunesArtwork.png in Resources */,
 				F90D37B01BAF90D50011001F /* shou_image046.png in Resources */,
 				F90D39121BAF90D50011001F /* boss_31.jpg in Resources */,
 				F90D36771BAF90D50011001F /* houner_image011.png in Resources */,
@@ -3431,6 +3530,7 @@
 				F90D37381BAF90D50011001F /* hung_image026.png in Resources */,
 				F90D38111BAF90D50011001F /* shou_image143.png in Resources */,
 				F90D37731BAF90D50011001F /* room_15.gif in Resources */,
+				F9F6F1991BC76D91004B54E7 /* home_boss@2x.png in Resources */,
 				F90D375C1BAF90D50011001F /* hung_image062.png in Resources */,
 				F90D393F1BAF90D50011001F /* card_image015.jpg in Resources */,
 				F90D37771BAF90D50011001F /* room_19.png in Resources */,
@@ -3451,6 +3551,7 @@
 				F90D397D1BAF90D50011001F /* gong_image043.png in Resources */,
 				F90D39511BAF90D50011001F /* card_image033.jpg in Resources */,
 				F90D38251BAF90D50011001F /* shou_image163.png in Resources */,
+				F9F6F1BC1BC7BC5E004B54E7 /* hardmod.png in Resources */,
 				F90D37C41BAF90D50011001F /* shou_image066.png in Resources */,
 				F90D38E61BAF90D50011001F /* user_image016.png in Resources */,
 				F90D37CA1BAF90D50011001F /* shou_image072.png in Resources */,
@@ -3459,8 +3560,10 @@
 				F90D36911BAF90D50011001F /* houner_image037.png in Resources */,
 				F90D36901BAF90D50011001F /* houner_image036.png in Resources */,
 				F90D36C31BAF90D50011001F /* houner_image087.png in Resources */,
+				F95E6AD31BBBAF1E0033283A /* isaac_114@2x.png in Resources */,
 				F90D39531BAF90D50011001F /* gong_image001.png in Resources */,
 				F90D376A1BAF90D50011001F /* roob_8.jpg in Resources */,
+				F9F6F19D1BC77B77004B54E7 /* home_seed@2x.png in Resources */,
 				F90D371A1BAF90D50011001F /* houner_image174.png in Resources */,
 				F90D389D1BAF90D50011001F /* small_14.jpg in Resources */,
 				F90D38421BAF90D50011001F /* shou_image192.png in Resources */,
@@ -3479,8 +3582,8 @@
 				F90D38A81BAF90D50011001F /* small_24.jpg in Resources */,
 				F90D368D1BAF90D50011001F /* houner_image033.png in Resources */,
 				F90D38ED1BAF90D50011001F /* base_11.png in Resources */,
-				F9039BDC1BA2AF42000CFEDC /* 1024@2x.png in Resources */,
 				F90D38771BAF90D50011001F /* shou_image245.png in Resources */,
+				F9F6F1B21BC7AAAD004B54E7 /* switch_off@2x.png in Resources */,
 				F90D390C1BAF90D50011001F /* boss_26.jpg in Resources */,
 				F903A2AC1BA2BEE7000CFEDC /* search2@2x.png in Resources */,
 				F90D380D1BAF90D50011001F /* shou_image139.png in Resources */,
@@ -3527,8 +3630,10 @@
 				F90D38541BAF90D50011001F /* shou_image210.png in Resources */,
 				F90D37D11BAF90D50011001F /* shou_image079.png in Resources */,
 				F90D38881BAF90D50011001F /* shou_image262.png in Resources */,
+				F95E6AD01BBBAF1E0033283A /* isaac_1024.png in Resources */,
 				F90D37361BAF90D50011001F /* hung_image024.png in Resources */,
 				F90D36C11BAF90D50011001F /* houner_image085.png in Resources */,
+				F9F6F1BA1BC7BA5F004B54E7 /* 8012.jpg in Resources */,
 				F90D36F31BAF90D50011001F /* houner_image135.png in Resources */,
 				F90D398E1BAF90D50011001F /* gong_image060.png in Resources */,
 				F90D36F41BAF90D50011001F /* houner_image136.png in Resources */,
@@ -3599,6 +3704,7 @@
 				F90D39291BAF90D50011001F /* boss_53.jpg in Resources */,
 				F90D39411BAF90D50011001F /* card_image017.jpg in Resources */,
 				F90D36EC1BAF90D50011001F /* houner_image128.png in Resources */,
+				F9F6F1B31BC7AAAD004B54E7 /* switch_on@2x.png in Resources */,
 				F90D370E1BAF90D50011001F /* houner_image162.png in Resources */,
 				F90D36D41BAF90D50011001F /* houner_image104.png in Resources */,
 				F90D36AE1BAF90D50011001F /* houner_image066.png in Resources */,
@@ -3619,6 +3725,7 @@
 				F90D368F1BAF90D50011001F /* houner_image035.png in Resources */,
 				F90D37201BAF90D50011001F /* houner_image180.png in Resources */,
 				F90D387F1BAF90D50011001F /* shou_image253.png in Resources */,
+				F95E6AD11BBBAF1E0033283A /* isaac_256@2x.png in Resources */,
 				F90D38D21BAF90D50011001F /* small_62.png in Resources */,
 				F90D36A11BAF90D50011001F /* houner_image053.png in Resources */,
 				F90D39311BAF90D50011001F /* boss_Store in Resources */,
@@ -3642,6 +3749,7 @@
 				F90D39491BAF90D50011001F /* card_image025.jpg in Resources */,
 				F90D36E11BAF90D50011001F /* houner_image117.png in Resources */,
 				F90D39301BAF90D50011001F /* boss_9.jpg in Resources */,
+				F9F6F1C21BC7C1B9004B54E7 /* lmod.jpg in Resources */,
 				F90D390E1BAF90D50011001F /* boss_28.jpg in Resources */,
 				F90D38CD1BAF90D50011001F /* small_58.jpg in Resources */,
 				F90D38351BAF90D50011001F /* shou_image179.png in Resources */,
@@ -3728,6 +3836,7 @@
 				F90D37C91BAF90D50011001F /* shou_image071.png in Resources */,
 				F90D37DD1BAF90D50011001F /* shou_image091.png in Resources */,
 				F90D37C31BAF90D50011001F /* shou_image065.png in Resources */,
+				F9F6F1A51BC77ED6004B54E7 /* home_small@2x.png in Resources */,
 				F90D39851BAF90D50011001F /* gong_image051.png in Resources */,
 				F9FCFFD91BA6A47900943A8F /* cimage009.png in Resources */,
 				F90D39271BAF90D50011001F /* boss_51.jpg in Resources */,
@@ -3742,6 +3851,7 @@
 				F9FCFFE61BA6A47900943A8F /* simage003.png in Resources */,
 				F9FCFFDA1BA6A47900943A8F /* cimage010.png in Resources */,
 				F90D39721BAF90D50011001F /* gong_image032.png in Resources */,
+				F9F6F1A31BC77E31004B54E7 /* home_room@2x.png in Resources */,
 				F90D394E1BAF90D50011001F /* card_image030.jpg in Resources */,
 				F90D379E1BAF90D50011001F /* shou_image028.png in Resources */,
 				F90D39801BAF90D50011001F /* gong_image046.png in Resources */,
@@ -3758,6 +3868,7 @@
 				F9039BF31BA2AF67000CFEDC /* earth@2x.png in Resources */,
 				F90D38A71BAF90D50011001F /* small_23.jpg in Resources */,
 				F90D38D71BAF90D50011001F /* small_9.jpg in Resources */,
+				F9F6F1A91BC78846004B54E7 /* message@2x.png in Resources */,
 				F90D38A61BAF90D50011001F /* small_22.jpg in Resources */,
 				F9039BEF1BA2AF67000CFEDC /* mor@2x.png in Resources */,
 				F90D38711BAF90D50011001F /* shou_image239.png in Resources */,
@@ -3828,6 +3939,7 @@
 				F90D379A1BAF90D50011001F /* shou_image024.png in Resources */,
 				F90D37621BAF90D50011001F /* roob_20.png in Resources */,
 				F90D38741BAF90D50011001F /* shou_image242.png in Resources */,
+				F9F6F1A11BC77DB4004B54E7 /* home_luo@2x.png in Resources */,
 				F90D377B1BAF90D50011001F /* room_22.png in Resources */,
 				F90D37B51BAF90D50011001F /* shou_image051.png in Resources */,
 				F90D396D1BAF90D50011001F /* gong_image027.png in Resources */,
@@ -3847,6 +3959,7 @@
 				F90D37841BAF90D50011001F /* shou_image002.png in Resources */,
 				F90D37E61BAF90D50011001F /* shou_image100.png in Resources */,
 				F90D37DC1BAF90D50011001F /* shou_image090.png in Resources */,
+				F9F6F1BE1BC7BD1C004B54E7 /* gamemod.png in Resources */,
 				F90D39051BAF90D50011001F /* boss_2.jpg in Resources */,
 				F90D37EE1BAF90D50011001F /* shou_image108.png in Resources */,
 				F90D39341BAF90D50011001F /* card_image004.jpg in Resources */,
@@ -3873,8 +3986,10 @@
 				F90D374C1BAF90D50011001F /* hung_image046.png in Resources */,
 				F90D380C1BAF90D50011001F /* shou_image138.png in Resources */,
 				F90D37491BAF90D50011001F /* hung_image043.png in Resources */,
+				F9F6F1951BC75BA4004B54E7 /* iTunesArtwork@2x.png in Resources */,
 				F90D373F1BAF90D50011001F /* hung_image033.png in Resources */,
 				F90D36E01BAF90D50011001F /* houner_image116.png in Resources */,
+				F9F6F1AF1BC79137004B54E7 /* home_mod@2x.png in Resources */,
 				F90D374E1BAF90D50011001F /* hung_image048.png in Resources */,
 				F90D376F1BAF90D50011001F /* room_11.png in Resources */,
 				F90D383E1BAF90D50011001F /* shou_image188.png in Resources */,
@@ -3930,9 +4045,11 @@
 				F90D36BE1BAF90D50011001F /* houner_image082.png in Resources */,
 				F90D36E31BAF90D50011001F /* houner_image119.png in Resources */,
 				F90D36DE1BAF90D50011001F /* houner_image114.png in Resources */,
+				F9F6F1AD1BC78B7B004B54E7 /* home_two@2x.png in Resources */,
 				F90D393C1BAF90D50011001F /* card_image012.jpg in Resources */,
 				F90D37E71BAF90D50011001F /* shou_image101.png in Resources */,
 				F90D37C51BAF90D50011001F /* shou_image067.png in Resources */,
+				F9F6F1C61BC7C5F6004B54E7 /* dreammod.jpg in Resources */,
 				F90D376C1BAF90D50011001F /* back@2x.png in Resources */,
 				F90D38121BAF90D50011001F /* shou_image144.png in Resources */,
 				F90D39741BAF90D50011001F /* gong_image034.png in Resources */,
@@ -3971,7 +4088,6 @@
 				F90D38341BAF90D50011001F /* shou_image178.png in Resources */,
 				F90D38AE1BAF90D50011001F /* small_3.jpg in Resources */,
 				F90D36CE1BAF90D50011001F /* houner_image098.png in Resources */,
-				F9039BDD1BA2AF42000CFEDC /* icon.png in Resources */,
 				F90D38D01BAF90D50011001F /* small_60.jpg in Resources */,
 				F90D38FF1BAF90D50011001F /* boss_14.jpg in Resources */,
 				F90D37211BAF90D50011001F /* hung_image003.png in Resources */,
@@ -4013,7 +4129,6 @@
 				F90D39251BAF90D50011001F /* boss_5.jpg in Resources */,
 				F90D36A61BAF90D50011001F /* houner_image058.png in Resources */,
 				F9039BB71BA2AD0A000CFEDC /* LaunchScreen.xib in Resources */,
-				F9039BDB1BA2AF42000CFEDC /* icon_120.png in Resources */,
 				F90D37561BAF90D50011001F /* hung_image056.png in Resources */,
 				F9039C091BA2AF8A000CFEDC /* back@2x.png in Resources */,
 				F90D36A51BAF90D50011001F /* houner_image057.png in Resources */,
@@ -4036,6 +4151,7 @@
 				F90D397F1BAF90D50011001F /* gong_image045.png in Resources */,
 				F90D36A31BAF90D50011001F /* houner_image055.png in Resources */,
 				F90D38961BAF90D50011001F /* sign_image009.png in Resources */,
+				F9F6F1B51BC7B484004B54E7 /* other.db in Resources */,
 				F90D372E1BAF90D50011001F /* hung_image016.png in Resources */,
 				F9039BF61BA2AF67000CFEDC /* same@2x.png in Resources */,
 				F9039BB41BA2AD0A000CFEDC /* Images.xcassets in Resources */,
@@ -4050,7 +4166,6 @@
 				F90D37991BAF90D50011001F /* shou_image023.png in Resources */,
 				F90D39901BAF90D50011001F /* gong_image062.png in Resources */,
 				F90D38201BAF90D50011001F /* shou_image158.png in Resources */,
-				F9039BDE1BA2AF42000CFEDC /* icon@2x.png in Resources */,
 				F90D36B41BAF90D50011001F /* houner_image072.png in Resources */,
 				F90D37501BAF90D50011001F /* hung_image050.png in Resources */,
 				F90D37681BAF90D50011001F /* roob_6.png in Resources */,
@@ -4094,6 +4209,7 @@
 				F90D371B1BAF90D50011001F /* houner_image175.png in Resources */,
 				F90D373A1BAF90D50011001F /* hung_image028.png in Resources */,
 				F90D38181BAF90D50011001F /* shou_image150.png in Resources */,
+				F95E6AD21BBBAF1E0033283A /* isaac_120@2x.png in Resources */,
 				F90D370B1BAF90D50011001F /* houner_image159.png in Resources */,
 				F90D381C1BAF90D50011001F /* shou_image154.png in Resources */,
 				F903A2A81BA2BD52000CFEDC /* default_photo@2x.png in Resources */,
@@ -4197,6 +4313,7 @@
 				F903A2C31BA2CC5C000CFEDC /* UIViewController+PKRevealController.m in Sources */,
 				F9FCFFFC1BA6CDCC00943A8F /* WebController.m in Sources */,
 				F903A2D51BA2CCB3000CFEDC /* PKLog.m in Sources */,
+				F9F6F1911BC75383004B54E7 /* Ver2Controller.m in Sources */,
 				F9039BCE1BA2AD82000CFEDC /* HomeController.m in Sources */,
 				F9FCFF931BA6727700943A8F /* BossController.m in Sources */,
 				F903A2D31BA2CCB3000CFEDC /* PKLayerAnimator.m in Sources */,
@@ -4208,11 +4325,14 @@
 				F9FCFFA81BA6835400943A8F /* SmallController.m in Sources */,
 				F9FCFFED1BA6A51700943A8F /* MoreController.m in Sources */,
 				F903A2881BA2B024000CFEDC /* Topic.m in Sources */,
+				F95E6AD61BBBB3340033283A /* MainViewController.m in Sources */,
 				F9FCFFF91BA6BC6000943A8F /* RegisterController.m in Sources */,
 				F9FCFF9D1BA6747500943A8F /* BossItemCell.m in Sources */,
 				F903A2C01BA2CC5C000CFEDC /* CAAnimation+PKIdentifier.m in Sources */,
 				F9FCFFA11BA6778100943A8F /* BossDetailActivity.m in Sources */,
+				F95E6AD91BBBB6090033283A /* MainController.m in Sources */,
 				F903A2811BA2B011000CFEDC /* ShareData.m in Sources */,
+				F9F6F1B81BC7B5DC004B54E7 /* ModSeedBean.m in Sources */,
 				F903A2911BA2B18B000CFEDC /* DBHelper.m in Sources */,
 				F903A2C41BA2CC5C000CFEDC /* PKRevealControllerView.m in Sources */,
 				F9FCFF901BA6589C00943A8F /* PHomeController.m in Sources */,

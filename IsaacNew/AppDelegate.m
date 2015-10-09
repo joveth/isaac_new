@@ -36,6 +36,15 @@
             }];
         }
     }
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor=[UIColor whiteColor];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[Ver2Controller new]];
+    [self.window  makeKeyAndVisible];
+    [[UINavigationBar appearance] setBarTintColor:FlatRed];
+    
+    NSDictionary * dict=[NSDictionary dictionaryWithObject:FlatWhite forKey:NSForegroundColorAttributeName];
+    [UINavigationBar appearance].titleTextAttributes=dict;
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     return YES;
 }
 

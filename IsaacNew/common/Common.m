@@ -110,4 +110,18 @@
     view.tag=12;
     [view show];
 }
++(CGFloat)clcLine:(CGFloat)width{
+    if(width<1){
+        width=1;
+    }else{
+        NSString *th = [NSString stringWithFormat:@"%0.0f",width];
+        NSInteger t = th.integerValue;
+        if(width-t>0){
+            width  = t+1;
+        }else{
+            width = t;
+        }
+    }
+    return width;
+}
 @end

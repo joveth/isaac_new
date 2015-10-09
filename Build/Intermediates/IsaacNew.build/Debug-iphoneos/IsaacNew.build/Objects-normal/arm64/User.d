@@ -1,2 +1,2 @@
-dependencies: /Users/shuwei/works/IsaacNew/IsaacNew/db/User.m \
-  /Users/shuwei/works/IsaacNew/IsaacNew/db/User.h
+dependencies: /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/User.m \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/User.h

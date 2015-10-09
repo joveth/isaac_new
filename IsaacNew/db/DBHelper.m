@@ -22,7 +22,7 @@ static const NSString *TB_BOSS = @"tb_isaac_boss";
 static const NSString *TB_SMALL = @"tb_isaac_small";
 static const NSString *TB_OTHER = @"tb_other";
 static const NSString *TB_USER = @"tb_user";
-
+static const NSString *TB_MODSEED = @"tb_modseed";
 @implementation DBHelper
 +(id)sharedInstance{
     static DBHelper *sharedInstance = nil;
@@ -62,6 +62,10 @@ static const NSString *TB_USER = @"tb_user";
         
         success =  [db executeUpdate:[NSString stringWithFormat:sql,TB_USER]];
         
+        sql = @"CREATE TABLE IF NOT EXISTS %@ (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, image varchar(20),name varchar(60),content varchar(1000),link varchar(200),author varchar(60),oldlink varchar(200),type char(1))";
+        
+        success =  [db executeUpdate:[NSString stringWithFormat:sql,TB_MODSEED]];
+        
         return success;
     }else{
         return NO;
@@ -69,6 +73,32 @@ static const NSString *TB_USER = @"tb_user";
 }
 -(void)initData:(BOOLCallBack)success{
     NSArray *aArray = [@"atore.db" componentsSeparatedByString:@"."];
+    NSString *filename = [aArray objectAtIndex:0];
+    NSString *sufix = [aArray objectAtIndex:1];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:filename ofType:sufix];
+    NSString* myString = [NSString stringWithContentsOfFile:filePath usedEncoding:NULL error:NULL];
+    NSArray *result = [myString componentsSeparatedByString:@"\n"];
+    if(![db open]){
+        if(success){
+            success(NO);
+        }
+        return;
+    }
+    for(int i=0;i<[result count];i++){
+        myString = [result objectAtIndex:i];
+        if([Common isEmptyString:myString]){
+            continue;
+        }
+        NSLog(@"sql=%@",myString);
+        [db executeUpdate:myString];
+    }
+    [db close];
+    if(success){
+        success(YES);
+    }
+}
+-(void)initModSeedData:(BOOLCallBack)success{
+    NSArray *aArray = [@"other.db" componentsSeparatedByString:@"."];
     NSString *filename = [aArray objectAtIndex:0];
     NSString *sufix = [aArray objectAtIndex:1];
     NSString *filePath = [[NSBundle mainBundle] pathForResource:filename ofType:sufix];
@@ -108,6 +138,22 @@ static const NSString *TB_USER = @"tb_user";
     [db close];
     return temp.integerValue;
 }
+-(NSInteger)getModSeedCnt{
+    if(![db open]){
+        return 0;
+    }
+    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select count(*) as total from %@ ",TB_MODSEED]];
+    NSString *temp =@"0";
+    if ([rs next]) {
+        NSDictionary *dict = [rs resultDictionary];
+        temp = dict[@"total"];
+    }
+    [rs close];
+    [db close];
+    return temp.integerValue;
+}
+
+
 -(NSMutableArray *)getIsaacs:(NSString *)offset{
     NSMutableArray *ret = [[NSMutableArray alloc] init];
     if(![db open])

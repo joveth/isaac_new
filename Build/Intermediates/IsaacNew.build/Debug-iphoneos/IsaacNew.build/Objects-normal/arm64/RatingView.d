@@ -1,2 +1,3 @@
-dependencies: /Users/shuwei/works/IsaacNew/IsaacNew/view/RatingView.m \
-  /Users/shuwei/works/IsaacNew/IsaacNew/view/RatingView.h
+dependencies: \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/view/RatingView.m \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/view/RatingView.h

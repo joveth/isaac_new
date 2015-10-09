@@ -9,7 +9,6 @@
 #import "IsaacTableViewController.h"
 #import "WebService.h"
 #import "MBProgressHUD.h"
-#import "SVProgressHUD.h"
 #import "DBHelper.h"
 #import "IsaacBean.h"
 #import "Common.h"
@@ -38,22 +37,22 @@
     leftBtn.titleLabel.font=[UIFont systemFontOfSize:18];
     leftBtn.titleLabel.textAlignment=NSTextAlignmentRight;
     [leftBtn setTitle:@"全部" forState:UIControlStateNormal];
-    
-    //[leftBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    HUD = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+    [self.navigationController.view addSubview:HUD];
+    HUD.labelText = @"加载中...";
+    [HUD show:YES];
     [leftBtn addTarget:self  action:@selector(showMenu) forControlEvents:UIControlEventTouchDown];
-    //[self showSV];
-    [self loadData];
     [self.navigationController.view addSubview: leftBtn];
-}
--(void)showSV{
-    dispatch_async(dispatch_get_main_queue(),^ {
-        [SVProgressHUD show];
-    });
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self loadData];
+}
+
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
     [leftBtn removeFromSuperview];
@@ -251,6 +250,7 @@
     [db openDB];
     contentList = [db getIsaacs:@"1"];
     [self.tableView reloadData];
+    [HUD hide:YES];
 }
 
 -(void)showMenu{
@@ -262,13 +262,17 @@
 }
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
     if(buttonIndex==0){
+        [HUD show:YES];
         contentList = [db getIsaacs:@"1"];
         [leftBtn setTitle:@"全部" forState:UIControlStateNormal];
         [self.tableView reloadData];
+        [HUD hide:YES];
     }else if(buttonIndex!=9) {
+        [HUD show:YES];
         contentList=[db getIsaacsByType:[NSString stringWithFormat:@"%ld",(long)buttonIndex]];
         [leftBtn setTitle:[titleArr objectAtIndex:buttonIndex] forState:UIControlStateNormal];
         [self.tableView reloadData];
+        [HUD hide:YES];
     }
 }
 @end

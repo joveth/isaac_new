@@ -1,2 +1,3 @@
-dependencies: /Users/shuwei/works/IsaacNew/IsaacNew/service/BossBean.m \
-  /Users/shuwei/works/IsaacNew/IsaacNew/service/BossBean.h
+dependencies: \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/service/BossBean.m \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/service/BossBean.h

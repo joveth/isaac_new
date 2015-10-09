@@ -19,6 +19,7 @@
     DBHelper *db;
     CGFloat screenWidth;
     NSDictionary *attributes;
+    MBProgressHUD *HUD;
 }
 
 - (void)viewDidLoad {
@@ -26,15 +27,22 @@
     list= [[NSMutableArray alloc] init];
     db = [DBHelper sharedInstance];
     self.title=@"小怪图鉴";
+    HUD = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+    [self.navigationController.view addSubview:HUD];
+    HUD.labelText = @"加载中...";
+    [HUD show:YES];
     screenWidth = [UIScreen mainScreen].applicationFrame.size.width;
     attributes = @{NSFontAttributeName: [UIFont systemFontOfSize:16.0]};
-    [self loadData];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
-
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self loadData];
+}
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
@@ -126,6 +134,7 @@
 -(void)loadData{
     list = [db getSmall:@"1"];
     [self.tableView reloadData];
+    [HUD hide:YES];
 }
 
 @end
