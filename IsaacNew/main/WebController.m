@@ -9,7 +9,7 @@
 #import "WebController.h"
 #import "ShareData.h"
 #import "SWDefine.h"
-#import "SVProgressHUD.h"
+#import "MBProgressHUD.h"
 
 @interface WebController ()<UIWebViewDelegate>
 
@@ -17,36 +17,35 @@
 
 @implementation WebController{
     UIWebView *webview;
-    
+    MBProgressHUD *HUD;
+    NSURLRequest *req;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    HUD = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+    [self.navigationController.view addSubview:HUD];
+    HUD.labelText = @"加载中...";
+    [HUD show:YES];
     webview = [[UIWebView alloc] initWithFrame:self.view.frame];
-    self.title=[ShareData shareInstance].title;
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/m/show/%@",WEB_BASE_URL,[ShareData shareInstance].urltype]];
-    NSURLRequest *req = [NSURLRequest requestWithURL:url];
-    [self showSV];
+    //self.title=[ShareData shareInstance].title;
+    NSURL *url = [NSURL URLWithString:[ShareData shareInstance].urltype];
+    req = [NSURLRequest requestWithURL:url];
     webview.delegate=self;
-    [webview loadRequest:req];
     [self.view addSubview:webview];
     self.view.backgroundColor=[UIColor whiteColor];
 }
--(void)showSV{
-    dispatch_async(dispatch_get_main_queue(),^ {
-        [SVProgressHUD show];
-    });
+-(void)viewDidAppear:(BOOL)animated{
+    [webview loadRequest:req];
 }
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
-    [SVProgressHUD dismiss];
+    [HUD hide:YES];
 }
 -(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
-    [SVProgressHUD showErrorWithStatus:@"加载失败了"];
+    [HUD hide:YES];
 }
 
 @end

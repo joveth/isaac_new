@@ -9,4 +9,13 @@ dependencies: /Users/shuwei/works/teme/IsaacNew/IsaacNew/main.m \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/common/ShareData.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/service/BossBean.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/service/IsaacBean.h \
-  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/AboutSomething.h
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/AboutSomething.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/ModController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/DBHelper.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/User.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/ModSeedBean.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/WebController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/SeedController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/MoreController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/AboutMeActivity.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/MessageViewController.h

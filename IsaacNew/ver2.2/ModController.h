@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "MBProgressHUD.h"
 #import "DBHelper.h"
+#import "ModSeedBean.h"
+#import "Common.h"
 
 @interface ModController : UITableViewController
 

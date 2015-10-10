@@ -15,4 +15,5 @@
 @property(nonatomic,copy)NSString *link;
 @property(nonatomic,copy)NSString *content;
 @property(nonatomic,copy)NSString *author;
+@property(nonatomic,copy)NSString *oldlink;
 @end

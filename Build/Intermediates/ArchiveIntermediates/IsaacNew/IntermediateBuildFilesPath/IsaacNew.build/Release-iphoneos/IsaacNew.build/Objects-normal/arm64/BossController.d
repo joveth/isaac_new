@@ -3,6 +3,7 @@ dependencies: \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/BossController.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/DBHelper.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/User.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/ModSeedBean.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/service/BossBean.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/common/Common.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/view/BossItemCell.h \

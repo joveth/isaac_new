@@ -89,7 +89,6 @@ static const NSString *TB_MODSEED = @"tb_modseed";
         if([Common isEmptyString:myString]){
             continue;
         }
-        NSLog(@"sql=%@",myString);
         [db executeUpdate:myString];
     }
     [db close];
@@ -115,7 +114,6 @@ static const NSString *TB_MODSEED = @"tb_modseed";
         if([Common isEmptyString:myString]){
             continue;
         }
-        NSLog(@"sql=%@",myString);
         [db executeUpdate:myString];
     }
     [db close];
@@ -280,18 +278,18 @@ static const NSString *TB_MODSEED = @"tb_modseed";
     {
         return ret;
     }
-    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@  where type=? ",TB_ISAAC],type];
-    IsaacBean *bean;
+    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@  where type=? ",TB_MODSEED],type];
+    ModSeedBean *bean;
     while ([rs next]) {
         NSDictionary *dict = [rs resultDictionary];
-        bean = [[IsaacBean alloc] init];
+        bean = [[ModSeedBean alloc] init];
         bean.sid = dict[@"id"];
         bean.image = dict[@"image"];
         bean.name = dict[@"name"];
-        bean.enName = dict[@"enname"];
         bean.content = dict[@"content"];
-        bean.power = dict[@"power"];
-        bean.unlock = dict[@"unlock"];
+        bean.link = dict[@"link"];
+        bean.author = dict[@"author"];
+        bean.oldlink = dict[@"oldlink"];
         [ret addObject:bean];
     }
     [rs close];
@@ -304,14 +302,14 @@ static const NSString *TB_MODSEED = @"tb_modseed";
     {
         return ret;
     }
-    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@ ",TB_MODSEED]];
+    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@ ",TB_BOSS]];
     BossBean *bean;
     while ([rs next]) {
         NSDictionary *dict = [rs resultDictionary];
         bean = [[BossBean alloc] init];
         bean.image = dict[@"image"];
         bean.name = dict[@"name"];
-        bean.enName = dict[@"link"];
+        bean.enName = dict[@"enname"];
         bean.content = dict[@"content"];
         bean.score = dict[@"score"];
         [ret addObject:bean];

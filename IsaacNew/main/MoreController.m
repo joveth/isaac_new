@@ -37,7 +37,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if(section==0){
-        return 2;
+        return 3;
     }else{
         return 1;
     }
@@ -68,12 +68,14 @@
         cell.tintColor = [UIColor greenColor];
     }
     if(indexPath.section==0&&indexPath.row==0){
-        cell.textLabel.text=@"捐款机&献血机";
+        cell.textLabel.text=@"Boss Rush";
     }else if(indexPath.section==0&&indexPath.row==1){
+        cell.textLabel.text=@"捐款机&献血机";
+    }else if(indexPath.section==0&&indexPath.row==2){
         cell.textLabel.text=@"猫套&苍蝇套";
     }
     else {
-        cell.textLabel.text=@"关于APP";
+        cell.textLabel.text=@"更新、计划、那人";
     }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
@@ -86,12 +88,16 @@
     [self.navigationItem.backBarButtonItem setTintColor:[UIColor whiteColor]];
     if(indexPath.section==0){
         MoreOther *show =[[MoreOther alloc] init];
-        [ShareData shareInstance].type=[NSString stringWithFormat:@"%ld",(indexPath.row+2)];
+        [ShareData shareInstance].type=[NSString stringWithFormat:@"%ld",(indexPath.row+1)];
         [self.navigationController pushViewController:show animated:YES];
     }else{
-        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
-        AboutMeActivity *show = (AboutMeActivity*)[storyboard instantiateViewControllerWithIdentifier:@"AboutMe"];
+        WebController *show = [[WebController alloc] init];
+        [ShareData shareInstance].urltype=@"http://joveth.github.io/isaac_new/index.html";
+        show.title=@"闲情记事";
         [self.navigationController pushViewController:show animated:YES];
+//        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+//        AboutMeActivity *show = (AboutMeActivity*)[storyboard instantiateViewControllerWithIdentifier:@"AboutMe"];
+//        [self.navigationController pushViewController:show animated:YES];
     }
 }
 

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#import "WebController.h"
 @interface MoreController : UITableViewController
 
 @end

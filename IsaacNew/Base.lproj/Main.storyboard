@@ -221,7 +221,7 @@
             </objects>
             <point key="canvasLocation" x="1133" y="1784"/>
         </scene>
-        <!--关于APP-->
+        <!--关于应用-->
         <scene sceneID="xSX-xi-aZD">
             <objects>
                 <tableViewController storyboardIdentifier="AboutMe" useStoryboardIdentifierAsRestorationIdentifier="YES" id="r0Z-uA-iCH" customClass="AboutMeActivity" sceneMemberID="viewController">
@@ -287,15 +287,15 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="软件声明" id="7qc-IB-Th7">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="aGy-9G-c2T" rowHeight="80" style="IBUITableViewCellStyleDefault" id="7iA-gu-6Qc">
-                                        <rect key="frame" x="0.0" y="218" width="600" height="80"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="aGy-9G-c2T" rowHeight="100" style="IBUITableViewCellStyleDefault" id="7iA-gu-6Qc">
+                                        <rect key="frame" x="0.0" y="218" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7iA-gu-6Qc" id="cAt-Ic-fA7">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="图鉴资源主要来源于贴吧网友的帖子，如果你觉得对你造成了侵权，请及时联系我，由于个人的能力有限，给您造成的困惑，对此深表歉意。" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aGy-9G-c2T">
-                                                    <rect key="frame" x="15" y="0.0" width="570" height="79"/>
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="99"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -308,17 +308,16 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="作者的话" id="9m1-qL-9xa">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="AiB-Mh-YRg" rowHeight="270" style="IBUITableViewCellStyleDefault" id="V7x-0X-FZc">
-                                        <rect key="frame" x="0.0" y="320" width="600" height="270"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="AiB-Mh-YRg" rowHeight="130" style="IBUITableViewCellStyleDefault" id="V7x-0X-FZc">
+                                        <rect key="frame" x="0.0" y="340" width="600" height="130"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V7x-0X-FZc" id="6Hi-Hb-hBz">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="269"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="129"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AiB-Mh-YRg">
-                                                    <rect key="frame" x="15" y="0.0" width="570" height="269"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="首先感谢几位朋友的建议，有你们我才能做的更好，才能更加不敢懈怠。本次更新了很多东西。因为在其他地方有说明了，这里就不说了。大家如果有有什么问题，请给我留言，或者QQ等。总之，别对我放弃治疗。" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AiB-Mh-YRg">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="129"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <string key="text">这次的版本虽然只换了个图标，去掉了几个功能，然而有位朋友的一席话，引发了我的思考，图鉴的意义终究还是图鉴，而我有些违背了它本该有的特点，加之最近遇到了一些技术问题，以我现在的水平难以解决，决定还是做好现在的主要功能，剩余的功能准备做成纯手工采集数据的形式，然后准备再次改造一番，等什么时候APP定型了，然后会校正图鉴里面的数据，想做这件事情很久了。最后，每个人发的留言我都会认真看，有时候感激，有时候思考，也有感动，现在才觉得开发一款APP不容易，离不开大家的支持，真诚的谢谢各位。</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -331,7 +330,7 @@
                             <tableViewSection headerTitle="给我留言" id="ftm-UI-neC">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Sq7-VQ-h7w">
-                                        <rect key="frame" x="0.0" y="612" width="600" height="100"/>
+                                        <rect key="frame" x="0.0" y="492" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sq7-VQ-h7w" id="1sM-cW-DVV">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
@@ -351,7 +350,7 @@
                             <tableViewSection headerTitle=" " id="hle-HJ-N2s">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="GT4-Sf-kgp" style="IBUITableViewCellStyleDefault" id="pH1-ah-rmK">
-                                        <rect key="frame" x="0.0" y="734" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="614" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pH1-ah-rmK" id="5Vq-H3-xHe">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
@@ -377,7 +376,7 @@
                             <outlet property="delegate" destination="r0Z-uA-iCH" id="Xqt-Fw-iUQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="关于APP" id="3mD-Wl-wAB"/>
+                    <navigationItem key="navigationItem" title="关于应用" id="3mD-Wl-wAB"/>
                     <connections>
                         <outlet property="contentTxt" destination="heZ-0U-da7" id="co6-vs-il0"/>
                     </connections>

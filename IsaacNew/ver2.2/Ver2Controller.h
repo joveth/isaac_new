@@ -16,6 +16,11 @@
 #import "ShareData.h"
 #import "AboutSomething.h"
 #import "ModController.h"
+#import "WebController.h"
+#import "SeedController.h"
+#import "MoreController.h"
+#import "AboutMeActivity.h"
+#import "MessageViewController.h"
 
 @interface Ver2Controller : UIViewController<UIGestureRecognizerDelegate>
 

@@ -15,7 +15,9 @@ dependencies: \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/service/IsaacBean.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/MoreOther.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/MoreController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/WebController.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/DBHelper.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/User.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/db/ModSeedBean.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/LoginController.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/service/SWDefine.h

@@ -297,9 +297,15 @@
             break;
         }
         case 5:{
+            SeedController *show = [[SeedController alloc] init];
+            [self.navigationController pushViewController:show animated:YES];
              break;
         }
         case 6:{
+            WebController *show = [[WebController alloc] init];
+            [ShareData shareInstance].urltype=@"http://joveth.github.io/isaac_new/story.html";
+            show.title=@"以撒的故事";
+            [self.navigationController pushViewController:show animated:YES];
              break;
         }
         case 7:{
@@ -322,14 +328,20 @@
             break;
         }
         case 10:{
-            
+            MoreController *show =[[MoreController alloc] init];
+            show.title=@"还有更多";
+            [self.navigationController pushViewController:show animated:YES];
             break;
         }
         case 11:{
-            
+            UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+            AboutMeActivity *show = (AboutMeActivity*)[storyboard instantiateViewControllerWithIdentifier:@"AboutMe"];
+            [self.navigationController pushViewController:show animated:YES];
             break;
         }
         case 12:{
+            MessageViewController *show =[[MessageViewController alloc] init];
+            [self.navigationController pushViewController:show animated:YES];
             break;
         }
         default:

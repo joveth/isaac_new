@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "sqlite3.h"
 #import "User.h"
-
+#import "ModSeedBean.h"
 typedef void (^BOOLCallBack)(BOOL ret);
 
 @interface DBHelper : NSObject
