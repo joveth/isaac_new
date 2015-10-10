@@ -274,21 +274,44 @@ static const NSString *TB_MODSEED = @"tb_modseed";
     [db close];
     return ret;
 }
+-(NSMutableArray *)getModOrSeed:(NSString *)type{
+    NSMutableArray *ret = [[NSMutableArray alloc] init];
+    if(![db open])
+    {
+        return ret;
+    }
+    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@  where type=? ",TB_ISAAC],type];
+    IsaacBean *bean;
+    while ([rs next]) {
+        NSDictionary *dict = [rs resultDictionary];
+        bean = [[IsaacBean alloc] init];
+        bean.sid = dict[@"id"];
+        bean.image = dict[@"image"];
+        bean.name = dict[@"name"];
+        bean.enName = dict[@"enname"];
+        bean.content = dict[@"content"];
+        bean.power = dict[@"power"];
+        bean.unlock = dict[@"unlock"];
+        [ret addObject:bean];
+    }
+    [rs close];
+    [db close];
+    return ret;
+}
 -(NSMutableArray *)getBoss:(NSString *)offset{
     NSMutableArray *ret = [[NSMutableArray alloc] init];
     if(![db open])
     {
         return ret;
     }
-    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@ ",TB_BOSS]];
+    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@ ",TB_MODSEED]];
     BossBean *bean;
     while ([rs next]) {
         NSDictionary *dict = [rs resultDictionary];
         bean = [[BossBean alloc] init];
-        bean.sid = dict[@"id"];
         bean.image = dict[@"image"];
         bean.name = dict[@"name"];
-        bean.enName = dict[@"enname"];
+        bean.enName = dict[@"link"];
         bean.content = dict[@"content"];
         bean.score = dict[@"score"];
         [ret addObject:bean];

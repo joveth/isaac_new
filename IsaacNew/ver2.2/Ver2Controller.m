@@ -292,7 +292,8 @@
             break;
         }
         case 4:{
-            
+            ModController *show = [[ModController alloc] init];
+            [self.navigationController pushViewController:show animated:YES];
             break;
         }
         case 5:{

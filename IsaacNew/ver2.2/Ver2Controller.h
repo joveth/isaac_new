@@ -15,6 +15,7 @@
 #import "SearchViewController.h"
 #import "ShareData.h"
 #import "AboutSomething.h"
+#import "ModController.h"
 
 @interface Ver2Controller : UIViewController<UIGestureRecognizerDelegate>
 

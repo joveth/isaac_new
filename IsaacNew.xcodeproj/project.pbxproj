@@ -906,13 +906,30 @@
 		F9F6F1B31BC7AAAD004B54E7 /* switch_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1B11BC7AAAD004B54E7 /* switch_on@2x.png */; settings = {ASSET_TAGS = (); }; };
 		F9F6F1B51BC7B484004B54E7 /* other.db in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1B41BC7B484004B54E7 /* other.db */; settings = {ASSET_TAGS = (); }; };
 		F9F6F1B81BC7B5DC004B54E7 /* ModSeedBean.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F6F1B71BC7B5DC004B54E7 /* ModSeedBean.m */; settings = {ASSET_TAGS = (); }; };
-		F9F6F1BA1BC7BA5F004B54E7 /* 8012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1B91BC7BA5F004B54E7 /* 8012.jpg */; settings = {ASSET_TAGS = (); }; };
-		F9F6F1BC1BC7BC5E004B54E7 /* hardmod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1BB1BC7BC5E004B54E7 /* hardmod.png */; settings = {ASSET_TAGS = (); }; };
-		F9F6F1BE1BC7BD1C004B54E7 /* gamemod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1BD1BC7BD1C004B54E7 /* gamemod.png */; settings = {ASSET_TAGS = (); }; };
-		F9F6F1C01BC7BF63004B54E7 /* cloudmod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1BF1BC7BF63004B54E7 /* cloudmod.png */; settings = {ASSET_TAGS = (); }; };
-		F9F6F1C21BC7C1B9004B54E7 /* lmod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1C11BC7C1B9004B54E7 /* lmod.jpg */; settings = {ASSET_TAGS = (); }; };
-		F9F6F1C41BC7C455004B54E7 /* mariomod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1C31BC7C455004B54E7 /* mariomod.jpg */; settings = {ASSET_TAGS = (); }; };
-		F9F6F1C61BC7C5F6004B54E7 /* dreammod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F6F1C51BC7C5F6004B54E7 /* dreammod.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F6F1C91BC7CACD004B54E7 /* ModController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F6F1C81BC7CACD004B54E7 /* ModController.m */; settings = {ASSET_TAGS = (); }; };
+		F9F779AB1BC898D30049F733 /* 8012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779A31BC898D30049F733 /* 8012.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779AC1BC898D30049F733 /* cloudmod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F779A41BC898D30049F733 /* cloudmod.png */; settings = {ASSET_TAGS = (); }; };
+		F9F779AD1BC898D30049F733 /* dreammod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779A51BC898D30049F733 /* dreammod.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779AE1BC898D30049F733 /* gamemod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F779A61BC898D30049F733 /* gamemod.png */; settings = {ASSET_TAGS = (); }; };
+		F9F779AF1BC898D30049F733 /* gradymod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779A71BC898D30049F733 /* gradymod.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779B01BC898D30049F733 /* hardmod.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F779A81BC898D30049F733 /* hardmod.png */; settings = {ASSET_TAGS = (); }; };
+		F9F779B11BC898D30049F733 /* lmod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779A91BC898D30049F733 /* lmod.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779B21BC898D30049F733 /* mariomod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779AA1BC898D30049F733 /* mariomod.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779B41BC89A2B0049F733 /* stonemod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779B31BC89A2B0049F733 /* stonemod.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779C41BC89A800049F733 /* 09JSZYGF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779B61BC89A800049F733 /* 09JSZYGF.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779C51BC89A800049F733 /* 4AFVXT8R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779B71BC89A800049F733 /* 4AFVXT8R.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779C61BC89A800049F733 /* 4LX9CF9C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779B81BC89A800049F733 /* 4LX9CF9C.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779C71BC89A800049F733 /* 4VDF3H4G.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779B91BC89A800049F733 /* 4VDF3H4G.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779C81BC89A800049F733 /* 63GSAYLQ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779BA1BC89A800049F733 /* 63GSAYLQ.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779C91BC89A800049F733 /* A9ZWSPNB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779BB1BC89A800049F733 /* A9ZWSPNB.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779CA1BC89A800049F733 /* C4H12HNJ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779BC1BC89A800049F733 /* C4H12HNJ.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779CB1BC89A800049F733 /* EXDLHFFZ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779BD1BC89A800049F733 /* EXDLHFFZ.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779CC1BC89A800049F733 /* FKACJYPA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779BE1BC89A800049F733 /* FKACJYPA.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779CD1BC89A800049F733 /* L1YPWOV8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779BF1BC89A800049F733 /* L1YPWOV8.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779CE1BC89A800049F733 /* RBRNSGWG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779C01BC89A800049F733 /* RBRNSGWG.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779CF1BC89A800049F733 /* VV84ST7F.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779C11BC89A800049F733 /* VV84ST7F.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779D01BC89A800049F733 /* WCAMNGKD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779C21BC89A800049F733 /* WCAMNGKD.jpg */; settings = {ASSET_TAGS = (); }; };
+		F9F779D11BC89A800049F733 /* Z2R5QFK4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9F779C31BC89A800049F733 /* Z2R5QFK4.jpg */; settings = {ASSET_TAGS = (); }; };
 		F9FCFF901BA6589C00943A8F /* PHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FCFF8F1BA6589C00943A8F /* PHomeController.m */; };
 		F9FCFF931BA6727700943A8F /* BossController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FCFF921BA6727700943A8F /* BossController.m */; };
 		F9FCFF9B1BA6747500943A8F /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FCFF951BA6747500943A8F /* RatingView.m */; };
@@ -1903,13 +1920,31 @@
 		F9F6F1B41BC7B484004B54E7 /* other.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = other.db; sourceTree = "<group>"; };
 		F9F6F1B61BC7B5DC004B54E7 /* ModSeedBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModSeedBean.h; sourceTree = "<group>"; };
 		F9F6F1B71BC7B5DC004B54E7 /* ModSeedBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModSeedBean.m; sourceTree = "<group>"; };
-		F9F6F1B91BC7BA5F004B54E7 /* 8012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8012.jpg; sourceTree = "<group>"; };
-		F9F6F1BB1BC7BC5E004B54E7 /* hardmod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardmod.png; sourceTree = "<group>"; };
-		F9F6F1BD1BC7BD1C004B54E7 /* gamemod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamemod.png; sourceTree = "<group>"; };
-		F9F6F1BF1BC7BF63004B54E7 /* cloudmod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudmod.png; sourceTree = "<group>"; };
-		F9F6F1C11BC7C1B9004B54E7 /* lmod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lmod.jpg; sourceTree = "<group>"; };
-		F9F6F1C31BC7C455004B54E7 /* mariomod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mariomod.jpg; sourceTree = "<group>"; };
-		F9F6F1C51BC7C5F6004B54E7 /* dreammod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dreammod.jpg; sourceTree = "<group>"; };
+		F9F6F1C71BC7CACD004B54E7 /* ModController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModController.h; sourceTree = "<group>"; };
+		F9F6F1C81BC7CACD004B54E7 /* ModController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModController.m; sourceTree = "<group>"; };
+		F9F779A31BC898D30049F733 /* 8012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8012.jpg; sourceTree = "<group>"; };
+		F9F779A41BC898D30049F733 /* cloudmod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudmod.png; sourceTree = "<group>"; };
+		F9F779A51BC898D30049F733 /* dreammod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dreammod.jpg; sourceTree = "<group>"; };
+		F9F779A61BC898D30049F733 /* gamemod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamemod.png; sourceTree = "<group>"; };
+		F9F779A71BC898D30049F733 /* gradymod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradymod.jpg; sourceTree = "<group>"; };
+		F9F779A81BC898D30049F733 /* hardmod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hardmod.png; sourceTree = "<group>"; };
+		F9F779A91BC898D30049F733 /* lmod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lmod.jpg; sourceTree = "<group>"; };
+		F9F779AA1BC898D30049F733 /* mariomod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mariomod.jpg; sourceTree = "<group>"; };
+		F9F779B31BC89A2B0049F733 /* stonemod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonemod.jpg; sourceTree = "<group>"; };
+		F9F779B61BC89A800049F733 /* 09JSZYGF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09JSZYGF.jpg; sourceTree = "<group>"; };
+		F9F779B71BC89A800049F733 /* 4AFVXT8R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4AFVXT8R.jpg; sourceTree = "<group>"; };
+		F9F779B81BC89A800049F733 /* 4LX9CF9C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4LX9CF9C.jpg; sourceTree = "<group>"; };
+		F9F779B91BC89A800049F733 /* 4VDF3H4G.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4VDF3H4G.jpg; sourceTree = "<group>"; };
+		F9F779BA1BC89A800049F733 /* 63GSAYLQ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 63GSAYLQ.jpg; sourceTree = "<group>"; };
+		F9F779BB1BC89A800049F733 /* A9ZWSPNB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = A9ZWSPNB.jpg; sourceTree = "<group>"; };
+		F9F779BC1BC89A800049F733 /* C4H12HNJ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = C4H12HNJ.jpg; sourceTree = "<group>"; };
+		F9F779BD1BC89A800049F733 /* EXDLHFFZ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EXDLHFFZ.jpg; sourceTree = "<group>"; };
+		F9F779BE1BC89A800049F733 /* FKACJYPA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FKACJYPA.jpg; sourceTree = "<group>"; };
+		F9F779BF1BC89A800049F733 /* L1YPWOV8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = L1YPWOV8.jpg; sourceTree = "<group>"; };
+		F9F779C01BC89A800049F733 /* RBRNSGWG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RBRNSGWG.jpg; sourceTree = "<group>"; };
+		F9F779C11BC89A800049F733 /* VV84ST7F.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VV84ST7F.jpg; sourceTree = "<group>"; };
+		F9F779C21BC89A800049F733 /* WCAMNGKD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WCAMNGKD.jpg; sourceTree = "<group>"; };
+		F9F779C31BC89A800049F733 /* Z2R5QFK4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z2R5QFK4.jpg; sourceTree = "<group>"; };
 		F9FCFF8E1BA6589C00943A8F /* PHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHomeController.h; sourceTree = "<group>"; };
 		F9FCFF8F1BA6589C00943A8F /* PHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHomeController.m; sourceTree = "<group>"; };
 		F9FCFF911BA6727700943A8F /* BossController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BossController.h; sourceTree = "<group>"; };
@@ -2147,13 +2182,8 @@
 		F9039BD21BA2AF30000CFEDC /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				F9F6F1C51BC7C5F6004B54E7 /* dreammod.jpg */,
-				F9F6F1C31BC7C455004B54E7 /* mariomod.jpg */,
-				F9F6F1C11BC7C1B9004B54E7 /* lmod.jpg */,
-				F9F6F1BF1BC7BF63004B54E7 /* cloudmod.png */,
-				F9F6F1BD1BC7BD1C004B54E7 /* gamemod.png */,
-				F9F6F1BB1BC7BC5E004B54E7 /* hardmod.png */,
-				F9F6F1B91BC7BA5F004B54E7 /* 8012.jpg */,
+				F9F779B51BC89A800049F733 /* seeds */,
+				F9F779A21BC898D30049F733 /* mod */,
 				F9F6F1B01BC7AAAD004B54E7 /* switch_off@2x.png */,
 				F9F6F1B11BC7AAAD004B54E7 /* switch_on@2x.png */,
 				F9F6F1AE1BC79137004B54E7 /* home_mod@2x.png */,
@@ -3227,8 +3257,47 @@
 			children = (
 				F9F6F18F1BC75383004B54E7 /* Ver2Controller.h */,
 				F9F6F1901BC75383004B54E7 /* Ver2Controller.m */,
+				F9F6F1C71BC7CACD004B54E7 /* ModController.h */,
+				F9F6F1C81BC7CACD004B54E7 /* ModController.m */,
 			);
 			path = ver2.2;
+			sourceTree = "<group>";
+		};
+		F9F779A21BC898D30049F733 /* mod */ = {
+			isa = PBXGroup;
+			children = (
+				F9F779B31BC89A2B0049F733 /* stonemod.jpg */,
+				F9F779A31BC898D30049F733 /* 8012.jpg */,
+				F9F779A41BC898D30049F733 /* cloudmod.png */,
+				F9F779A51BC898D30049F733 /* dreammod.jpg */,
+				F9F779A61BC898D30049F733 /* gamemod.png */,
+				F9F779A71BC898D30049F733 /* gradymod.jpg */,
+				F9F779A81BC898D30049F733 /* hardmod.png */,
+				F9F779A91BC898D30049F733 /* lmod.jpg */,
+				F9F779AA1BC898D30049F733 /* mariomod.jpg */,
+			);
+			path = mod;
+			sourceTree = "<group>";
+		};
+		F9F779B51BC89A800049F733 /* seeds */ = {
+			isa = PBXGroup;
+			children = (
+				F9F779B61BC89A800049F733 /* 09JSZYGF.jpg */,
+				F9F779B71BC89A800049F733 /* 4AFVXT8R.jpg */,
+				F9F779B81BC89A800049F733 /* 4LX9CF9C.jpg */,
+				F9F779B91BC89A800049F733 /* 4VDF3H4G.jpg */,
+				F9F779BA1BC89A800049F733 /* 63GSAYLQ.jpg */,
+				F9F779BB1BC89A800049F733 /* A9ZWSPNB.jpg */,
+				F9F779BC1BC89A800049F733 /* C4H12HNJ.jpg */,
+				F9F779BD1BC89A800049F733 /* EXDLHFFZ.jpg */,
+				F9F779BE1BC89A800049F733 /* FKACJYPA.jpg */,
+				F9F779BF1BC89A800049F733 /* L1YPWOV8.jpg */,
+				F9F779C01BC89A800049F733 /* RBRNSGWG.jpg */,
+				F9F779C11BC89A800049F733 /* VV84ST7F.jpg */,
+				F9F779C21BC89A800049F733 /* WCAMNGKD.jpg */,
+				F9F779C31BC89A800049F733 /* Z2R5QFK4.jpg */,
+			);
+			path = seeds;
 			sourceTree = "<group>";
 		};
 		F9FCFFB81BA6A46700943A8F /* www */ = {
@@ -3392,12 +3461,12 @@
 				F90D37441BAF90D50011001F /* hung_image038.png in Resources */,
 				F90D38D61BAF90D50011001F /* small_8.jpg in Resources */,
 				F90D36971BAF90D50011001F /* houner_image043.png in Resources */,
+				F9F779AC1BC898D30049F733 /* cloudmod.png in Resources */,
 				F90D36FB1BAF90D50011001F /* houner_image143.png in Resources */,
 				F90D38C71BAF90D50011001F /* small_52.jpg in Resources */,
 				F90D36C91BAF90D50011001F /* houner_image093.png in Resources */,
 				F9F6F1971BC763FA004B54E7 /* home_search@2x.png in Resources */,
 				F90D394D1BAF90D50011001F /* card_image029.jpg in Resources */,
-				F9F6F1C41BC7C455004B54E7 /* mariomod.jpg in Resources */,
 				F90D39391BAF90D50011001F /* card_image009.jpg in Resources */,
 				F90D37E31BAF90D50011001F /* shou_image097.png in Resources */,
 				F90D36961BAF90D50011001F /* houner_image042.png in Resources */,
@@ -3405,7 +3474,6 @@
 				F90D38921BAF90D50011001F /* sign_image005.png in Resources */,
 				F90D37001BAF90D50011001F /* houner_image148.png in Resources */,
 				F90D37A31BAF90D50011001F /* shou_image033.png in Resources */,
-				F9F6F1C01BC7BF63004B54E7 /* cloudmod.png in Resources */,
 				F90D36841BAF90D50011001F /* houner_image024.png in Resources */,
 				F90D38D91BAF90D50011001F /* user_image003.png in Resources */,
 				F90D37E81BAF90D50011001F /* shou_image102.png in Resources */,
@@ -3414,6 +3482,7 @@
 				F9039BFC1BA2AF67000CFEDC /* b1@2x.png in Resources */,
 				F90D384D1BAF90D50011001F /* shou_image203.png in Resources */,
 				F90D39091BAF90D50011001F /* boss_23.jpg in Resources */,
+				F9F779B11BC898D30049F733 /* lmod.jpg in Resources */,
 				F90D38FE1BAF90D50011001F /* boss_13.jpg in Resources */,
 				F90D377F1BAF90D50011001F /* room_5.png in Resources */,
 				F90D39871BAF90D50011001F /* gong_image053.png in Resources */,
@@ -3450,8 +3519,10 @@
 				F90D36D11BAF90D50011001F /* houner_image101.png in Resources */,
 				F90D37B81BAF90D50011001F /* shou_image054.png in Resources */,
 				F90D368A1BAF90D50011001F /* houner_image030.png in Resources */,
+				F9F779B41BC89A2B0049F733 /* stonemod.jpg in Resources */,
 				F90D372D1BAF90D50011001F /* hung_image015.png in Resources */,
 				F90D38E11BAF90D50011001F /* user_image011.png in Resources */,
+				F9F779D01BC89A800049F733 /* WCAMNGKD.jpg in Resources */,
 				F90D38E41BAF90D50011001F /* user_image014.png in Resources */,
 				F90D39821BAF90D50011001F /* gong_image048.png in Resources */,
 				F90D36A81BAF90D50011001F /* houner_image060.png in Resources */,
@@ -3551,7 +3622,6 @@
 				F90D397D1BAF90D50011001F /* gong_image043.png in Resources */,
 				F90D39511BAF90D50011001F /* card_image033.jpg in Resources */,
 				F90D38251BAF90D50011001F /* shou_image163.png in Resources */,
-				F9F6F1BC1BC7BC5E004B54E7 /* hardmod.png in Resources */,
 				F90D37C41BAF90D50011001F /* shou_image066.png in Resources */,
 				F90D38E61BAF90D50011001F /* user_image016.png in Resources */,
 				F90D37CA1BAF90D50011001F /* shou_image072.png in Resources */,
@@ -3568,6 +3638,7 @@
 				F90D389D1BAF90D50011001F /* small_14.jpg in Resources */,
 				F90D38421BAF90D50011001F /* shou_image192.png in Resources */,
 				F90D389F1BAF90D50011001F /* small_16.jpg in Resources */,
+				F9F779CF1BC89A800049F733 /* VV84ST7F.jpg in Resources */,
 				F90D38131BAF90D50011001F /* shou_image145.png in Resources */,
 				F90D37D81BAF90D50011001F /* shou_image086.png in Resources */,
 				F90D37461BAF90D50011001F /* hung_image040.png in Resources */,
@@ -3583,7 +3654,9 @@
 				F90D368D1BAF90D50011001F /* houner_image033.png in Resources */,
 				F90D38ED1BAF90D50011001F /* base_11.png in Resources */,
 				F90D38771BAF90D50011001F /* shou_image245.png in Resources */,
+				F9F779CA1BC89A800049F733 /* C4H12HNJ.jpg in Resources */,
 				F9F6F1B21BC7AAAD004B54E7 /* switch_off@2x.png in Resources */,
+				F9F779C71BC89A800049F733 /* 4VDF3H4G.jpg in Resources */,
 				F90D390C1BAF90D50011001F /* boss_26.jpg in Resources */,
 				F903A2AC1BA2BEE7000CFEDC /* search2@2x.png in Resources */,
 				F90D380D1BAF90D50011001F /* shou_image139.png in Resources */,
@@ -3624,6 +3697,7 @@
 				F90D39551BAF90D50011001F /* gong_image003.png in Resources */,
 				F90D38331BAF90D50011001F /* shou_image177.png in Resources */,
 				F90D381B1BAF90D50011001F /* shou_image153.png in Resources */,
+				F9F779AD1BC898D30049F733 /* dreammod.jpg in Resources */,
 				F90D39261BAF90D50011001F /* boss_50.jpg in Resources */,
 				F90D39671BAF90D50011001F /* gong_image021.png in Resources */,
 				F90D38731BAF90D50011001F /* shou_image241.png in Resources */,
@@ -3633,7 +3707,7 @@
 				F95E6AD01BBBAF1E0033283A /* isaac_1024.png in Resources */,
 				F90D37361BAF90D50011001F /* hung_image024.png in Resources */,
 				F90D36C11BAF90D50011001F /* houner_image085.png in Resources */,
-				F9F6F1BA1BC7BA5F004B54E7 /* 8012.jpg in Resources */,
+				F9F779AB1BC898D30049F733 /* 8012.jpg in Resources */,
 				F90D36F31BAF90D50011001F /* houner_image135.png in Resources */,
 				F90D398E1BAF90D50011001F /* gong_image060.png in Resources */,
 				F90D36F41BAF90D50011001F /* houner_image136.png in Resources */,
@@ -3718,6 +3792,7 @@
 				F90D38B41BAF90D50011001F /* small_35.jpg in Resources */,
 				F90D37B61BAF90D50011001F /* shou_image052.png in Resources */,
 				F90D36701BAF90D50011001F /* houner_image004.png in Resources */,
+				F9F779C41BC89A800049F733 /* 09JSZYGF.jpg in Resources */,
 				F90D394F1BAF90D50011001F /* card_image031.jpg in Resources */,
 				F90D391D1BAF90D50011001F /* boss_41.jpg in Resources */,
 				F90D37701BAF90D50011001F /* room_12.png in Resources */,
@@ -3749,7 +3824,6 @@
 				F90D39491BAF90D50011001F /* card_image025.jpg in Resources */,
 				F90D36E11BAF90D50011001F /* houner_image117.png in Resources */,
 				F90D39301BAF90D50011001F /* boss_9.jpg in Resources */,
-				F9F6F1C21BC7C1B9004B54E7 /* lmod.jpg in Resources */,
 				F90D390E1BAF90D50011001F /* boss_28.jpg in Resources */,
 				F90D38CD1BAF90D50011001F /* small_58.jpg in Resources */,
 				F90D38351BAF90D50011001F /* shou_image179.png in Resources */,
@@ -3767,6 +3841,7 @@
 				F90D36851BAF90D50011001F /* houner_image025.png in Resources */,
 				F90D366F1BAF90D50011001F /* houner_image003.png in Resources */,
 				F90D378E1BAF90D50011001F /* shou_image012.png in Resources */,
+				F9F779AF1BC898D30049F733 /* gradymod.jpg in Resources */,
 				F90D373D1BAF90D50011001F /* hung_image031.png in Resources */,
 				F90D39361BAF90D50011001F /* card_image006.jpg in Resources */,
 				F90D39771BAF90D50011001F /* gong_image037.png in Resources */,
@@ -3846,6 +3921,7 @@
 				F90D373B1BAF90D50011001F /* hung_image029.png in Resources */,
 				F90D37301BAF90D50011001F /* hung_image018.png in Resources */,
 				F90D37921BAF90D50011001F /* shou_image016.png in Resources */,
+				F9F779B01BC898D30049F733 /* hardmod.png in Resources */,
 				F90D36C41BAF90D50011001F /* houner_image088.png in Resources */,
 				F90D367A1BAF90D50011001F /* houner_image014.png in Resources */,
 				F9FCFFE61BA6A47900943A8F /* simage003.png in Resources */,
@@ -3855,6 +3931,7 @@
 				F90D394E1BAF90D50011001F /* card_image030.jpg in Resources */,
 				F90D379E1BAF90D50011001F /* shou_image028.png in Resources */,
 				F90D39801BAF90D50011001F /* gong_image046.png in Resources */,
+				F9F779C51BC89A800049F733 /* 4AFVXT8R.jpg in Resources */,
 				F90D39441BAF90D50011001F /* card_image020.jpg in Resources */,
 				F90D376E1BAF90D50011001F /* room_10.png in Resources */,
 				F90D37081BAF90D50011001F /* houner_image156.png in Resources */,
@@ -3877,6 +3954,7 @@
 				F90D38821BAF90D50011001F /* shou_image256.png in Resources */,
 				F90D38EC1BAF90D50011001F /* base_10.png in Resources */,
 				F90D369D1BAF90D50011001F /* houner_image049.png in Resources */,
+				F9F779CD1BC89A800049F733 /* L1YPWOV8.jpg in Resources */,
 				F90D37421BAF90D50011001F /* hung_image036.png in Resources */,
 				F90D36F51BAF90D50011001F /* houner_image137.png in Resources */,
 				F90D36F81BAF90D50011001F /* houner_image140.png in Resources */,
@@ -3959,7 +4037,6 @@
 				F90D37841BAF90D50011001F /* shou_image002.png in Resources */,
 				F90D37E61BAF90D50011001F /* shou_image100.png in Resources */,
 				F90D37DC1BAF90D50011001F /* shou_image090.png in Resources */,
-				F9F6F1BE1BC7BD1C004B54E7 /* gamemod.png in Resources */,
 				F90D39051BAF90D50011001F /* boss_2.jpg in Resources */,
 				F90D37EE1BAF90D50011001F /* shou_image108.png in Resources */,
 				F90D39341BAF90D50011001F /* card_image004.jpg in Resources */,
@@ -3992,6 +4069,7 @@
 				F9F6F1AF1BC79137004B54E7 /* home_mod@2x.png in Resources */,
 				F90D374E1BAF90D50011001F /* hung_image048.png in Resources */,
 				F90D376F1BAF90D50011001F /* room_11.png in Resources */,
+				F9F779D11BC89A800049F733 /* Z2R5QFK4.jpg in Resources */,
 				F90D383E1BAF90D50011001F /* shou_image188.png in Resources */,
 				F90D36AF1BAF90D50011001F /* houner_image067.png in Resources */,
 				F90D381E1BAF90D50011001F /* shou_image156.png in Resources */,
@@ -4005,7 +4083,9 @@
 				F90D38271BAF90D50011001F /* shou_image165.png in Resources */,
 				F90D38151BAF90D50011001F /* shou_image147.png in Resources */,
 				F90D38551BAF90D50011001F /* shou_image211.png in Resources */,
+				F9F779B21BC898D30049F733 /* mariomod.jpg in Resources */,
 				F90D36761BAF90D50011001F /* houner_image010.png in Resources */,
+				F9F779C91BC89A800049F733 /* A9ZWSPNB.jpg in Resources */,
 				F90D39751BAF90D50011001F /* gong_image035.png in Resources */,
 				F90D37E11BAF90D50011001F /* shou_image095.png in Resources */,
 				F90D38871BAF90D50011001F /* shou_image261.png in Resources */,
@@ -4049,7 +4129,6 @@
 				F90D393C1BAF90D50011001F /* card_image012.jpg in Resources */,
 				F90D37E71BAF90D50011001F /* shou_image101.png in Resources */,
 				F90D37C51BAF90D50011001F /* shou_image067.png in Resources */,
-				F9F6F1C61BC7C5F6004B54E7 /* dreammod.jpg in Resources */,
 				F90D376C1BAF90D50011001F /* back@2x.png in Resources */,
 				F90D38121BAF90D50011001F /* shou_image144.png in Resources */,
 				F90D39741BAF90D50011001F /* gong_image034.png in Resources */,
@@ -4091,7 +4170,9 @@
 				F90D38D01BAF90D50011001F /* small_60.jpg in Resources */,
 				F90D38FF1BAF90D50011001F /* boss_14.jpg in Resources */,
 				F90D37211BAF90D50011001F /* hung_image003.png in Resources */,
+				F9F779CB1BC89A800049F733 /* EXDLHFFZ.jpg in Resources */,
 				F9039BF01BA2AF67000CFEDC /* rush@2x.png in Resources */,
+				F9F779C61BC89A800049F733 /* 4LX9CF9C.jpg in Resources */,
 				F90D379C1BAF90D50011001F /* shou_image026.png in Resources */,
 				F9039C0D1BA2AF8A000CFEDC /* star2@2x.png in Resources */,
 				F90D368B1BAF90D50011001F /* houner_image031.png in Resources */,
@@ -4140,6 +4221,7 @@
 				F90D36EE1BAF90D50011001F /* houner_image130.png in Resources */,
 				F90D369F1BAF90D50011001F /* houner_image051.png in Resources */,
 				F90D395A1BAF90D50011001F /* gong_image008.png in Resources */,
+				F9F779CC1BC89A800049F733 /* FKACJYPA.jpg in Resources */,
 				F90D37F31BAF90D50011001F /* shou_image113.png in Resources */,
 				F90D36AC1BAF90D50011001F /* houner_image064.png in Resources */,
 				F90D388D1BAF90D50011001F /* shou_image267.png in Resources */,
@@ -4170,6 +4252,7 @@
 				F90D37501BAF90D50011001F /* hung_image050.png in Resources */,
 				F90D37681BAF90D50011001F /* roob_6.png in Resources */,
 				F90D38CC1BAF90D50011001F /* small_57.jpg in Resources */,
+				F9F779AE1BC898D30049F733 /* gamemod.png in Resources */,
 				F90D38B21BAF90D50011001F /* small_33.jpg in Resources */,
 				F90D38561BAF90D50011001F /* shou_image212.png in Resources */,
 				F90D36DC1BAF90D50011001F /* houner_image112.png in Resources */,
@@ -4186,6 +4269,7 @@
 				F9039C0E1BA2AF8A000CFEDC /* scan@2x.png in Resources */,
 				F90D39501BAF90D50011001F /* card_image032.jpg in Resources */,
 				F90D381A1BAF90D50011001F /* shou_image152.png in Resources */,
+				F9F779CE1BC89A800049F733 /* RBRNSGWG.jpg in Resources */,
 				F90D38571BAF90D50011001F /* shou_image213.png in Resources */,
 				F90D37391BAF90D50011001F /* hung_image027.png in Resources */,
 				F9FCFFA51BA6831100943A8F /* more2@2x.png in Resources */,
@@ -4199,6 +4283,7 @@
 				F90D37FF1BAF90D50011001F /* shou_image125.png in Resources */,
 				F90D37F71BAF90D50011001F /* shou_image117.png in Resources */,
 				F90D37EA1BAF90D50011001F /* shou_image104.png in Resources */,
+				F9F779C81BC89A800049F733 /* 63GSAYLQ.jpg in Resources */,
 				F90D38F81BAF90D50011001F /* base_8.png in Resources */,
 				F90D37BC1BAF90D50011001F /* shou_image058.png in Resources */,
 				F90D384E1BAF90D50011001F /* shou_image204.png in Resources */,
@@ -4323,6 +4408,7 @@
 				F903A28B1BA2B038000CFEDC /* IsaacTableViewController.m in Sources */,
 				F903A2C21BA2CC5C000CFEDC /* NSObject+PKBlocks.m in Sources */,
 				F9FCFFA81BA6835400943A8F /* SmallController.m in Sources */,
+				F9F6F1C91BC7CACD004B54E7 /* ModController.m in Sources */,
 				F9FCFFED1BA6A51700943A8F /* MoreController.m in Sources */,
 				F903A2881BA2B024000CFEDC /* Topic.m in Sources */,
 				F95E6AD61BBBB3340033283A /* MainViewController.m in Sources */,
