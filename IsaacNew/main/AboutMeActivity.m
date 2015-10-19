@@ -89,7 +89,7 @@
     }
     testMsg.wantsSecure = YES;
     
-    testMsg.subject = @"IOS ISaac Mail ";
+    testMsg.subject = @"IOS ISaac V3.0 Mail ";
     //testMsg.bccEmail = @"testbcc@test.com";
     
     // Only do this for self-signed certs!

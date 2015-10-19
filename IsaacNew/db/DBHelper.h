@@ -25,6 +25,7 @@ typedef void (^BOOLCallBack)(BOOL ret);
 -(NSMutableArray *)getBoss:(NSString *)offset;
 -(NSMutableArray *)getSmall:(NSString *)offset;
 -(NSMutableArray *)getOtherByType:(NSString *)type;
+-(NSMutableArray *)getOther;
 -(User *)getUser;
 -(void)saveUser:(User *)user;
 -(NSMutableArray *)getModOrSeed:(NSString *)type;

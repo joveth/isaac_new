@@ -36,6 +36,9 @@
     [scroll addSubview:bossImageView];
     CGFloat screenWidth = [UIScreen mainScreen].applicationFrame.size.width;
     NSDictionary *attributes = @{NSFontAttributeName: [UIFont systemFontOfSize:16.0]};
+    if([Common isEmptyString:bean.content]){
+        bean.content=bean.unlock;
+    }
     CGSize size = [bean.content sizeWithAttributes:attributes];
     CGFloat line = size.width/screenWidth;
     if(line<1){

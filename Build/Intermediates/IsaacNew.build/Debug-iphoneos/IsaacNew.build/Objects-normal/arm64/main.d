@@ -18,4 +18,6 @@ dependencies: /Users/shuwei/works/teme/IsaacNew/IsaacNew/main.m \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/SeedController.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/MoreController.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/AboutMeActivity.h \
-  /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/MessageViewController.h
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/MessageViewController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/QuickLookController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/ShowSearchController.h

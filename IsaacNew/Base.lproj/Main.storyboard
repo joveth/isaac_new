@@ -308,16 +308,17 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="作者的话" id="9m1-qL-9xa">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="AiB-Mh-YRg" rowHeight="130" style="IBUITableViewCellStyleDefault" id="V7x-0X-FZc">
-                                        <rect key="frame" x="0.0" y="340" width="600" height="130"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="AiB-Mh-YRg" rowHeight="170" style="IBUITableViewCellStyleDefault" id="V7x-0X-FZc">
+                                        <rect key="frame" x="0.0" y="340" width="600" height="170"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V7x-0X-FZc" id="6Hi-Hb-hBz">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="129"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="169"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="首先感谢几位朋友的建议，有你们我才能做的更好，才能更加不敢懈怠。本次更新了很多东西。因为在其他地方有说明了，这里就不说了。大家如果有有什么问题，请给我留言，或者QQ等。总之，别对我放弃治疗。" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AiB-Mh-YRg">
-                                                    <rect key="frame" x="15" y="0.0" width="570" height="129"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AiB-Mh-YRg">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="169"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">首先感谢几位朋友的建议，有你们我才能做的更好，才能更加不敢懈怠。本次对一些数据做了校正，因为太多，难免还有疏漏，如果你发现了，请给我留言，感激不尽。另外，关于胶囊，因为效果是随机的，所以没有放图片，怕给大家造成误解。大家如果有有什么问题，请给我留言，或QQ等。总之，别对我放弃治疗。</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -330,7 +331,7 @@
                             <tableViewSection headerTitle="给我留言" id="ftm-UI-neC">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="Sq7-VQ-h7w">
-                                        <rect key="frame" x="0.0" y="492" width="600" height="100"/>
+                                        <rect key="frame" x="0.0" y="532" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sq7-VQ-h7w" id="1sM-cW-DVV">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
@@ -350,7 +351,7 @@
                             <tableViewSection headerTitle=" " id="hle-HJ-N2s">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="GT4-Sf-kgp" style="IBUITableViewCellStyleDefault" id="pH1-ah-rmK">
-                                        <rect key="frame" x="0.0" y="614" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="654" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pH1-ah-rmK" id="5Vq-H3-xHe">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>

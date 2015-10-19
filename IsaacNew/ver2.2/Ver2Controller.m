@@ -253,8 +253,24 @@
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"search2"] style:UIBarButtonItemStyleBordered target:self action:@selector(doSearch:)];
     rightItem.tintColor=[UIColor whiteColor];
     self.navigationItem.rightBarButtonItem =rightItem;
+    
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"quicklook"] style:UIBarButtonItemStyleBordered target:self action:@selector(quickLook:)];
+    leftItem.tintColor=[UIColor whiteColor];
+    self.navigationItem.leftBarButtonItem =leftItem;
+    
 }
-
+-(IBAction)quickLook:(id)sender{
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleBordered target:nil action:nil];
+    backItem.tintColor=[UIColor whiteColor];
+    [self.navigationItem setBackBarButtonItem:backItem];
+    [self.navigationItem.backBarButtonItem setTintColor:[UIColor whiteColor]];
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    [flowLayout setItemSize:CGSizeMake([UIScreen mainScreen].applicationFrame.size.width/4,60)]; //设置每个cell显示数据的宽和高必须
+    [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical]; //控制滑动分页用
+    
+    QuickLookController *show = [[QuickLookController alloc] initWithCollectionViewLayout:flowLayout];
+    [self.navigationController pushViewController:show animated:YES];
+}
 -(IBAction)doSearch:(id)sender{
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleBordered target:nil action:nil];
     backItem.tintColor=[UIColor whiteColor];

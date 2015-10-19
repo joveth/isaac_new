@@ -254,7 +254,6 @@
 }
 
 -(void)showMenu{
-    [searchHeader resignFirstResponder];
     UIActionSheet *sheet = [[UIActionSheet alloc]initWithTitle:@"请选择" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"全部",@"主动", @"被动",@"饰品",@"塔牌",@"符文",@"胶囊",@"人物",@"成就",nil];
     [sheet setActionSheetStyle:UIActionSheetStyleBlackOpaque];
     

@@ -361,6 +361,27 @@ static const NSString *TB_MODSEED = @"tb_modseed";
     [db close];
     return ret;
 }
+-(NSMutableArray *)getOther{
+    NSMutableArray *ret = [[NSMutableArray alloc] init];
+    if(![db open])
+    {
+        return ret;
+    }
+    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@  ",TB_OTHER]];
+    IsaacBean *bean;
+    while ([rs next]) {
+        NSDictionary *dict = [rs resultDictionary];
+        bean = [[IsaacBean alloc] init];
+        bean.image = dict[@"image"];
+        bean.name = dict[@"name"];
+        bean.enName = dict[@"enname"];
+        bean.content = dict[@"content"];
+        [ret addObject:bean];
+    }
+    [rs close];
+    [db close];
+    return ret;
+}
 -(User *)getUser{
     if(![db open])
     {

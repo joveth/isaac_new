@@ -21,7 +21,7 @@
 #import "MoreController.h"
 #import "AboutMeActivity.h"
 #import "MessageViewController.h"
-
+#import "QuickLookController.h"
 @interface Ver2Controller : UIViewController<UIGestureRecognizerDelegate>
 
 @end
