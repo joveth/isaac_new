@@ -28,7 +28,7 @@
     CGFloat offset=64;
     self.view.backgroundColor=[Common colorWithHexString:@"e0e0e0"];
     topView = [[UIView alloc] initWithFrame:CGRectMake(0, offset, width, 120)];
-    topView.backgroundColor=FlatRed;
+    topView.backgroundColor=[Common colorWithHexString:@"eb4f38"];
     [self.view addSubview:topView];
     offset+=140;
     content = [[UIView alloc] initWithFrame:CGRectMake(0, offset, width, 210)];
@@ -44,7 +44,7 @@
     i0.image = [UIImage imageNamed:@"home_search"];
     UILabel *l0 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l0.font=[UIFont systemFontOfSize:18 weight:2];
-    l0.textColor=FlatWhite;
+    l0.textColor=[UIColor whiteColor];
     l0.textAlignment=NSTextAlignmentCenter;
     l0.text=@"图鉴";
     [b0 addSubview:i0];
@@ -61,7 +61,7 @@
     i1.image = [UIImage imageNamed:@"home_boss"];
     UILabel *l1 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l1.font=[UIFont systemFontOfSize:18 weight:2];
-    l1.textColor=FlatWhite;
+    l1.textColor=[UIColor whiteColor];
     l1.textAlignment=NSTextAlignmentCenter;
     l1.text=@"Boss";
     [b1 addSubview:i1];
@@ -78,7 +78,7 @@
     i2.image = [UIImage imageNamed:@"home_small"];
     UILabel *l2 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l2.font=[UIFont systemFontOfSize:18 weight:2];
-    l2.textColor=FlatWhite;
+    l2.textColor=[UIColor whiteColor];
     l2.textAlignment=NSTextAlignmentCenter;
     l2.text=@"小怪";
     [b2 addSubview:i2];
@@ -95,7 +95,7 @@
     i3.image = [UIImage imageNamed:@"home_mod"];
     UILabel *l3 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l3.font=[UIFont systemFontOfSize:16];
-    l3.textColor=FlatBlack;
+    l3.textColor=[UIColor blackColor];
     l3.textAlignment=NSTextAlignmentCenter;
     l3.text=@"MOD合集";
     [b3 addSubview:i3];
@@ -112,7 +112,7 @@
     i4.image = [UIImage imageNamed:@"home_seed"];
     UILabel *l4 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l4.font=[UIFont systemFontOfSize:16];
-    l4.textColor=FlatBlack;
+    l4.textColor=[UIColor blackColor];
     l4.textAlignment=NSTextAlignmentCenter;
     l4.text=@"Seed种子";
     [b4 addSubview:i4];
@@ -126,12 +126,12 @@
     
     UIView *b5 = [[UIView alloc] initWithFrame:CGRectMake(avgWidth*2, 0, avgWidth, 90)];
     UIImageView *i5 = [[UIImageView alloc] initWithFrame:CGRectMake( (avgWidth-50)/2, 10, 50, 50)];
-    i5.image = [UIImage imageNamed:@"stor"];
+    i5.image = [UIImage imageNamed:@"dlc_new"];
     UILabel *l5 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l5.font=[UIFont systemFontOfSize:16];
-    l5.textColor=FlatBlack;
+    l5.textColor=[UIColor blackColor];
     l5.textAlignment=NSTextAlignmentCenter;
-    l5.text=@"以撒的故事";
+    l5.text=@"Afterbirth新物";
     [b5 addSubview:i5];
     [b5 addSubview:l5];
     b5.tag=tag++;
@@ -146,7 +146,7 @@
     i6.image = [UIImage imageNamed:@"home_luo"];
     UILabel *l6 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l6.font=[UIFont systemFontOfSize:16];
-    l6.textColor=FlatBlack;
+    l6.textColor=[UIColor blackColor];
     l6.textAlignment=NSTextAlignmentCenter;
     l6.text=@"基础掉落";
     [b6 addSubview:i6];
@@ -163,7 +163,7 @@
     i7.image = [UIImage imageNamed:@"earth"];
     UILabel *l7 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l7.font=[UIFont systemFontOfSize:16];
-    l7.textColor=FlatBlack;
+    l7.textColor=[UIColor blackColor];
     l7.textAlignment=NSTextAlignmentCenter;
     l7.text=@"地形物体";
     [b7 addSubview:i7];
@@ -180,7 +180,7 @@
     i8.image = [UIImage imageNamed:@"home_room"];
     UILabel *l8 = [[UILabel alloc] initWithFrame:CGRectMake(0, 70, avgWidth, 25)];
     l8.font=[UIFont systemFontOfSize:16];
-    l8.textColor=FlatBlack;
+    l8.textColor=[UIColor blackColor];
     l8.textAlignment=NSTextAlignmentCenter;
     l8.text=@"房间说明";
     [b8 addSubview:i8];
@@ -201,7 +201,7 @@
     otherimage0.image = [UIImage imageNamed:@"home_two"];
     UILabel *otherlabel0 = [[UILabel alloc] initWithFrame:CGRectMake(x/2+25, 10, size.width+5, 20)];
     otherlabel0.font=[UIFont systemFontOfSize:14];
-    otherlabel0.textColor=[UIColor flatBlackColor];
+    otherlabel0.textColor=[UIColor blackColor];
     
     otherlabel0.text=temp;
     [other0 addSubview:otherimage0];
@@ -221,7 +221,7 @@
     otherimage1.image = [UIImage imageNamed:@"about"];
     UILabel *otherlabel1 = [[UILabel alloc] initWithFrame:CGRectMake(x/2+25, 10, size.width+5, 20)];
     otherlabel1.font=[UIFont systemFontOfSize:14];
-    otherlabel1.textColor=[UIColor flatBlackColor];
+    otherlabel1.textColor=[UIColor blackColor];
     otherlabel1.text=@"关于应用";
     [other1 addSubview:otherimage1];
     [other1 addSubview:otherlabel1];
@@ -239,7 +239,7 @@
     otherimage2.image = [UIImage imageNamed:@"message"];
     UILabel *otherlabel2 = [[UILabel alloc] initWithFrame:CGRectMake(x/2+25, 10, size.width+5, 20)];
     otherlabel2.font=[UIFont systemFontOfSize:14];
-    otherlabel2.textColor=[UIColor flatBlackColor];
+    otherlabel2.textColor=[UIColor blackColor];
     //otherlabel2.textAlignment=NSTextAlignmentCenter;
     otherlabel2.text=@"给我留言";//userContentWrapper,
     [other2 addSubview:otherimage2];
@@ -318,9 +318,9 @@
              break;
         }
         case 6:{
-            WebController *show = [[WebController alloc] init];
-            [ShareData shareInstance].urltype=@"http://joveth.github.io/isaac_new/story.html";
-            show.title=@"以撒的故事";
+            DLCController *show = [[DLCController alloc] init];
+            //[ShareData shareInstance].urltype=@"http://joveth.github.io/isaac_new/story.html";
+            show.title=@"Afterbirth新道具";
             [self.navigationController pushViewController:show animated:YES];
              break;
         }

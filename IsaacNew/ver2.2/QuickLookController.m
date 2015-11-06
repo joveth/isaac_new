@@ -39,7 +39,7 @@ static NSString * const reuseHeaderIdentifier = @"HeaderCell";
     smolles = [[NSMutableArray alloc] init];
     otheres = [[NSMutableArray alloc] init];
     width = [UIScreen mainScreen].applicationFrame.size.width/4;
-    self.collectionView.backgroundColor=FlatWhite;
+    self.collectionView.backgroundColor=[UIColor whiteColor];
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseHeaderIdentifier];
     db = [DBHelper sharedInstance];
@@ -88,7 +88,7 @@ static NSString * const reuseHeaderIdentifier = @"HeaderCell";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     cell.layer.borderWidth=0.3f;
-    cell.layer.borderColor=FlatWhiteDark.CGColor;
+    cell.layer.borderColor=[Common colorWithHexString:@"8a8a8a"].CGColor;
     cell.backgroundColor=[UIColor whiteColor];
     
     UILabel *name = (UILabel *)[cell.contentView viewWithTag:1] ;

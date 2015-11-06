@@ -24,25 +24,18 @@
         NSInteger cnt = [db getCnt];
         if(cnt==0){
             [db initData:nil];
-        }
-        User *user = [db getUser];
-        if(user&&user.Name){
-            [WebService getUser:user.Name andSuc:^(NSArray *_ret) {
-                if(_ret&&[_ret count]>0){
-                    [db saveUser:[_ret objectAtIndex:0]];
-                }
-            } andErr:^(NSInteger code) {
-                
-            }];
+        }else if(cnt<700){
+            [db deleteData];
+            [db initData:nil];
         }
     }
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor=[UIColor whiteColor];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[Ver2Controller new]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[Ver2Controller alloc] init]];
     [self.window  makeKeyAndVisible];
-    [[UINavigationBar appearance] setBarTintColor:FlatRed];
+    [[UINavigationBar appearance] setBarTintColor:[Common colorWithHexString:@"eb4f38"]];
     
-    NSDictionary * dict=[NSDictionary dictionaryWithObject:FlatWhite forKey:NSForegroundColorAttributeName];
+    NSDictionary * dict=[NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
     [UINavigationBar appearance].titleTextAttributes=dict;
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     return YES;

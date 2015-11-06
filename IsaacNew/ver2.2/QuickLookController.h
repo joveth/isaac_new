@@ -12,7 +12,6 @@
 #import "BossBean.h"
 #import "MBProgressHUD.h"
 #import "Common.h"
-#import <ChameleonFramework/Chameleon.h>
 #import "ShowSearchController.h"
 #import "ShareData.h"
 

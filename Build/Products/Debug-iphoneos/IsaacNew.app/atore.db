@@ -657,6 +657,128 @@ insert into tb_isaac values(null,'houner_image177.png','-0-宝宝（卖萌可耻
 insert into tb_isaac values(null,'houner_image178.png','错误宝宝','Glitch Baby','','','解锁方式：困难模式下用伊甸败妈心','8')
 insert into tb_isaac values(null,'houner_image179.png','战斗宝宝','Fighting Baby','','','解锁方式：困难模式下用参孙败妈心','8')
 insert into tb_isaac values(null,'houner_image180.png','苍蝇领主','Lord Of The Flies','','','解锁方式：收集苍蝇套中的三件变成苍蝇领主','8')
+insert into tb_isaac values(null,'dlc1.jpg','双倍眼','Diplopia','一次性主动，复制当前房间的主动和被动道具。在商店使用可免费获得商店里的主动和被动道具（真的不要钱啦）。','','','A')
+insert into tb_isaac values(null,'dlc2.jpg','安慰药','Placebo','4充能主动，复制所持有的药丸效果（类似于白卡）,*只对药丸有效。','4','','A')
+insert into tb_isaac values(null,'dlc3.jpg','纪念币','Wooden Nickel','1充能主动，使用后有50%几率掉落一个随机种类的硬币（1、5、10美分）。','1','','A')
+insert into tb_isaac values(null,'dlc4.jpg','加农炮','Glass Cannon','缓慢充能主动，使用后，使当前血量变为半血，然后发射一个威力很大的特殊眼泪。*对魂心/黑心没有影响。*与自身攻击力有关（初始攻击时可造成45的伤害值）。','缓慢充能','','A')
+insert into tb_isaac values(null,'dlc5.jpg','炸弹人','Bomber Boy','被动道具，+5炸弹，使炸弹的攻击范围变成横竖5格的十字。*对即爆炸弹（陆夫人）也有效(即：吃了这个道具之后，遇到陆夫人也会是横竖5格的十字爆炸，请注意哦)。','','','A')
+insert into tb_isaac values(null,'dlc6.jpg','血包','Crack Jacks','被动道具，+1红心上限，并生成一个随机随饰品在地上。','','','A')
+insert into tb_isaac values(null,'dlc7.jpg','妈妈的珍珠项链','Mom’s Pearls','被动道具，射程+1.25，眼泪高度+0.5，幸运+1。','','','A')
+insert into tb_isaac values(null,'dlc8.jpg','电池组','Car Battery','被动道具，使主动道具的效果生效2次。举例：Yum Heart可以一次回2血，莉莉丝的主动Box of friends可以一次多招一组跟班（即同时3组）','','','A')
+insert into tb_isaac values(null,'dlc9.jpg','好盒友','Box of friends','2充能主动，在当前房间额外生成一组已拥有的跟班，离开房间失效。*注意不是翻倍，而是额外生成一组。*同一房间可以多次使用（肉哥肉妹成就新方法？？）。','2','','A')
+insert into tb_isaac values(null,'dlc10.jpg','风眼病','The Wiz','被动道具，眼泪变为斜角同时发射两个，类似于R U A Wizard？胶囊的效果','','','A')
+insert into tb_isaac values(null,'dlc11.jpg','8尺钉','8 Inch Nails','被动道具，攻击+1.5，眼泪替换为钉子（，增加击退能力。*该击退能力对硫磺火也有效。','','','A')
+insert into tb_isaac values(null,'dlc12.jpg','恶魔跟班','Incubus','被动道具，跟班，发射的眼泪与主角一样（包括种类，属性，效果），并且会随着主角的能力改变而改变。*莉莉丝初始道具之一。','','','A')
+insert into tb_isaac values(null,'dlc13.jpg','小蓝人头','Incubus','被动道具，跟班，眼泪攻击力与主角相同。*只复制主角的攻击力，其他属性和效果不复制。','','','A')
+insert into tb_isaac values(null,'dlc14.jpg','李查特','Lil Chest','被动道具，跟班，每（清理？）几个房间随机生成一个基础掉落。','','','A')
+insert into tb_isaac values(null,'dlc15.jpg','守护天使','Sworn Protector','被动道具，环绕跟班，对敌人造成接触伤害（7点每秒）并格挡子弹。*很像无脸版的守护天使。','','','A')
+insert into tb_isaac values(null,'dlc16.jpg','苍蝇使','Friend Zone','被动道具，环绕跟班，对敌人造成接触伤害（3点每秒）。*距离自身的位置介于红苍蝇（DistantAdmiration）和蓝苍蝇（Forever Alone）之间。','','','A')
+insert into tb_isaac values(null,'dlc17.jpg','散弹','Scatter Bombs','被动道具，+5炸弹，使自己的炸弹爆炸后生成四个小的即将爆炸的炸弹。','','','A')
+insert into tb_isaac values(null,'dlc18.jpg','泪崩','Epiphora','被动道具，在同一方向射击的话，攻击频率（fire rate）会逐渐增加，直到达到上限。*一旦切换攻击方向，则攻击频率回复到原值。','','','A')
+insert into tb_isaac values(null,'dlc19.jpg','轮回眼','Continuum','被动道具，射程+2.25，眼泪高度+1.5，眼泪可以从界面的一边穿过另一边，并且可以穿透障碍物。','','','A')
+insert into tb_isaac values(null,'dlc20.jpg','布娃娃','Mr. Dolly','被动道具，增加射速和射程（数值待确定）。*获得时在当前房间掉落三个随机种类的心。','','','A')
+insert into tb_isaac values(null,'dlc21.jpg','充电宝','Charged Baby','被动道具，跟班，每4房间掉落一个电池。*不确定是不是有缓慢充能效果？待验证','','','A')
+insert into tb_isaac values(null,'dlc22.jpg','死亡之眼','Dead eye','被动道具，每次成功击中敌人会少许增加攻击力（应该有上限）。*一旦有一次没有命中敌人则攻击力回复原值。','','','A')
+insert into tb_isaac values(null,'dlc23.jpg','圣光','Holy Light!','被动道具，一定几率射出神圣眼泪，该眼泪击中敌人时会产生一道圣光并造成伤害（类似于白马和裂天的圣光）。','','','A')
+insert into tb_isaac values(null,'dlc24.jpg','骷髅帽','Host Hat','被动道具，一定几率抵消子弹伤害。*使主角抵御爆炸伤害。','','','A')
+insert into tb_isaac values(null,'dlc25.jpg','刷新','Restock','被动道具，在商店里购买物品后，会在原来物品的位置重新生成一个可购买的物品。*贪婪模式初始锁定道具，但你仍可在贪婪模式获得该物品。','','','A')
+insert into tb_isaac values(null,'dlc26.jpg','蜘蛛的爱','Bursting Sack','被动道具，蜘蛛不再攻击主角，并且对主角无伤害。','','','A')
+insert into tb_isaac values(null,'dlc27.jpg','Pupula duplex','Pupula duplex','被动道具，子弹变为弓形并变宽，并使子弹可以穿越障碍物。','','','A')
+insert into tb_isaac values(null,'dlc26.jpg','有钱任性','Pay to play','被动道具，金钱+5，所有需要1钥匙的门改为需要1硬币开启。*影响商店，宝箱房，图书馆等。','','','A')
+insert into tb_isaac values(null,'dlc29.jpg','伊甸的祝福','Eden’s Blessing','被动道具，射速上升，使你下一局游戏随机获得一个新的道具。*不确定使用种子的情况下是否有效。','','','A')
+insert into tb_isaac values(null,'dlc30.jpg','好个球','Friendly Ball','4充能主动，对小怪使用可以捕捉它，再激活主动时可以放出该小怪，它将作为友军攻击其他敌人。*离开房间或下层后友军仍将保留，直到它受到足够多的伤害。','4','','A')
+insert into tb_isaac values(null,'dlc31.jpg','泪弹','Tear Detonator','1充能主动，使用后使当前屏幕上主角射出的眼泪分裂为6方向的眼泪。','1','','A')
+insert into tb_isaac values(null,'dlc32.jpg','丽丽','Lily Gurdy','被动道具，跟班，可以按住射击键蓄力然后松开按键释放它，它会像Gurdy一样在屏幕上来回弹跳，对接触到的敌人造成伤害。可以跨越障碍物。','','','A')
+insert into tb_isaac values(null,'dlc33.jpg','D12','D12','3充能主动，使用后使当前房间（？）的所有石头和蘑菇转换为其他东西（大便，壶，TNT桶，实心砖等）。','3','','A')
+insert into tb_isaac values(null,'dlc34.jpg','香炉','Censer','被动道具，跟班，产生一个光晕，怪物进入该光晕内会被减速。','','','A')
+insert into tb_isaac values(null,'dlc35.jpg','钥匙跟班','Key Bum','被动道具，跟班，拾取地上的钥匙并随机给宝箱。','','','A')
+insert into tb_isaac values(null,'dlc36.jpg','符文袋','Rune Bag','被动道具，跟班，每清理3房间随机掉落一个符文。','','','A')
+insert into tb_isaac values(null,'dlc37.jpg','背叛','Betrayal','被动道具，当主角受到伤害时，当前房间的所有怪物获得魅惑状态并互相攻击对方。','','','A')
+insert into tb_isaac values(null,'dlc38.jpg','白十字','Zodiac','被动道具，每一层随机获得一种星座被动的效果。*到下一层更换一种效果。*不确定在已获得星座被动的情况下会不会随机到同样的效果。','','','A')
+insert into tb_isaac values(null,'dlc39.jpg','蛇女之吻','Serpent’s Kiss','被动道具，眼泪随机附带毒效果，毒眼泪对怪物造成每秒4-6点伤害，并使主角接触怪物时对怪物造成4-6点毒伤害。*被毒伤害杀死的怪物一定几率掉落黑心。','','','A')
+insert into tb_isaac values(null,'dlc40.jpg','红十字','Marked','被动道具，产生一个可控制的准星，主角的眼泪会瞄准这个准星。','','','A')
+insert into tb_isaac values(null,'dlc41.jpg','X光','Tech X','被动道具，攻击方式变为蓄力发射一个穿过房间的激光环。*激光环的大小与蓄力时间相关。*对环内怪物造成高频率伤害，伤害值与主角的普通眼泪攻击力有关。','','','A')
+insert into tb_isaac values(null,'dlc42.jpg','手术刀','Ventricle razor','0充能主动，可在任何房间的地面先后放置两个传送口（棕色和蓝色），进入其中1个传送口会从另一个口出来。*BR和挑战房特别有用*可以从恶魔房传送出来，但是无法用该道具返回恶魔房。','0','','A')
+insert into tb_isaac values(null,'dlc43.jpg','地波器','Tractor Beam','被动道具，射击方向上会产生一个光柱，主角的眼泪会跟着这个光柱前进和移动*即使移动主角位置或改变射击方向，眼泪仍旧会保持跟着光柱，因此可以很灵活地控制眼泪的位置。','','','A')
+insert into tb_isaac values(null,'dlc44.jpg','深渊之刃','Maw of the void','被动道具，攻击力+1，持续射击3秒后，主角头上会出现一个红色的十字，此时松开射击按键，会产生一个黑色的圆环，对环内敌人造成高频率伤害，伤害值与主角的攻击力有关。','','','A')
+insert into tb_isaac values(null,'dlc45.jpg','命运之矛','Spear of destiny','被动道具，在保持原有眼泪的基础上，主角面前会多一把枪，对敌人造成接触伤害，伤害值为主角普通眼泪的2倍。*和妈刀不同，这把枪射不了。','','','A')
+insert into tb_isaac values(null,'dlc46.jpg','炸弹眼泪','Explosivo','被动道具，射出的眼泪一定几率会黏住敌人，并在几秒后爆炸，伤害为眼泪伤害+60。','','','A')
+insert into tb_isaac values(null,'dlc47.jpg','混沌','Chaos','被动道具，随机改变所有道具池的道具。*得到该道具时，在当前房间随机生成1-6个基础掉落。','','','A')
+insert into tb_isaac values(null,'dlc48.jpg','臭屁孩','Farting Baby','被动道具，跟班，格挡子弹，并且当子弹打到它时高概率放屁，对周围怪物造成伤害。','','','A')
+insert into tb_isaac values(null,'dlc49.jpg','游戏bug','GB Bug','被动道具，跟班，在屏幕上类似弹球移动，接触到的敌人会获得随机负面状态（减速，灼烧等）。','','','A')
+insert into tb_isaac values(null,'dlc50.jpg','D8','D8','主动道具（充能数？），使用后随机改变自身全部属性。','','','A')
+insert into tb_isaac values(null,'dlc51.jpg','白莲花','Purity','被动道具，主角周围会产生一个光晕，并随机上升一个属性。*上升的属性与光晕颜色有关，红色加攻击，蓝色加射速，黄色加移速。*每次主角受伤时光晕的颜色会改变，即上升的属性种类会改变。*上升属性的数值随机（具体数值待确定）。','','','A')
+insert into tb_isaac values(null,'dlc52.jpg','螺丝钉','Athame','被动道具，当主角受伤时会在身体周围产生一个黑色的环，对接触到环的怪物造成伤害。*被环杀死的怪物一定几率掉落黑心。','','','A')
+insert into tb_isaac values(null,'dlc53.jpg','空袋子','Empty vessel','被动道具，当红血小于等于半颗时，主角获得飞行能力，并且受到伤害时一定几率产生一个持续几秒的无敌护盾（无敌效果类似于全家福，但是是一定几率触发）*血量回到半红血以上时，以上效果失效。','','','A')
+insert into tb_isaac values(null,'dlc54.jpg','夏娃的眼球','Evil eye','被动道具，射击时一定几率射出一个慢速的眼睛，它会和主角射出同方向眼泪。*这个眼睛接触敌人或障碍物时会消失。','','','A')
+insert into tb_isaac values(null,'dlc55.jpg','大血袋','Lusty Bloody','被动道具，当前房间内每杀死一个敌人增加少量攻击力，增加的攻击力只在当前房间有效。*就是羔羊版参孙的嗜血。','','','A')
+insert into tb_isaac values(null,'dlc56.jpg','恶魔之心','Cambion conception','被动道具，当主角受到伤害时有极微小的几率获得一个恶魔跟班。*包括红心乞丐（Dark Bum）、恶魔宝宝（DemonBaby）、水蛭（Leech）、小硫磺火（Lil Brimstone）、Succubus。*莉莉丝初始道具之一。','','','A')
+insert into tb_isaac values(null,'dlc57.jpg','天使之心','Immaculate conception','被动道具，当主角受到伤害时有极微小的几率获得一个天使跟班。* 包括圣水（Holy Water）、守护天使（GuardianAngel）、Sworn Protector、蓝心十字架（The Relic）、一个蓝色长袍的射圣心眼泪的天使。','','解锁：用莉莉丝（Lilith）通关BOSS RUSH','A')
+insert into tb_isaac values(null,'dlc58.jpg','多选','More options','被动道具，使宝箱房道具可以2选1。','','','A')
+insert into tb_isaac values(null,'dlc59.jpg','魅魔','Succubus','被动道具，跟班，在屏幕上类似弹球移动，它的周围会产生一个黑色的光晕，光晕内的敌人会受到伤害，主角的子弹穿过光晕会增加伤害。*站在光晕里时，主角的攻击力+3，当有多个Succubus时该效果叠加。','','','A')
+insert into tb_isaac values(null,'dlc60.jpg','水果蛋糕','Fruit cake','被动道具，每隔几秒随机改变一次眼泪效果。','','','A')
+insert into tb_isaac values(null,'dlc61.jpg','肾豆','Kidney Bean','2充能道具，使用后使房间内敌人获得一定时间的魅惑状态。','2','','A')
+insert into tb_isaac values(null,'dlc62.jpg','时光器','Glowing hour glass','2充能主动。使用后使主角回到上一个房间，并且回复到当时的状态。*不确定如果受伤后使用该道具是否仍会影响恶魔房开启几率。','2','','A')
+insert into tb_isaac values(null,'dlc63.jpg','圆环','Circle of protection','被动道具，在主角周围产生一个大的白色光圈，对接触光圈的敌人造成伤害。*当敌人的子弹进入光圈内时，这些子弹一定几率会变为射向敌人的跟踪子弹。','','','A')
+insert into tb_isaac values(null,'dlc64.jpg','福袋的头','Sack Head','被动道具，拾取硬币时一定几率生成一个福袋（捡取时会生成一些基础掉落）*配合D20使用可能会由于生成太多福袋而使游戏报错退出。','','','A')
+insert into tb_isaac values(null,'dlc65.jpg','夜光灯','Night Light','被动道具，使以撒面对的方向前产生一片漏斗形的光，进入该范围的敌人和敌方子弹会被减速。*减速效果生效的范围可能小于实际显示的光的范围。*光的方向和移动方向有关，移动方向=光产生方向，与射击方向无关。','','','A')
+insert into tb_isaac values(null,'dlc66.jpg','我的世界','Mine crafter','1充能主动，使用后会在主角旁边生成一个TNT桶。*这个TNT桶可以被推动，可以被眼泪射击爆炸，用来炸石头或对敌人造成伤害。*如果当前房间已经用该主动生成过一个TNT桶，再次使用该主动将会引爆这个TNT桶，而不是生成一个新的TNT桶。','','','A')
+insert into tb_isaac values(null,'dlc67.jpg','PIS','PIS','被动道具，获得时魂心+4并回复所有红心。','','','A')
+insert into tb_isaac values(null,'dlc68.jpg','模仿者','Multidimensional baby','被动道具，跟班，模仿你的移动轨迹但是延迟3秒。*主角的子弹穿过它时，数量会翻倍并且攻击力增加，子弹颜色会黑白闪烁。','','','A')
+insert into tb_isaac values(null,'dlc69.jpg','彩弹','Glitter Bombs','被动道具，主角的炸弹变成粉红色，并且在爆炸时会随机产生一个基础掉落。','','','A')
+insert into tb_isaac values(null,'dlc70.jpg','影子','My shadow','被动道具，主角每次受到伤害时会产生一个黑色的跟班攻击敌人。*当该跟班受到一定伤害后会消失。','','','A')
+insert into tb_isaac values(null,'dlc71.jpg','苍蝇瓶','Jar of flies','0充能主动，每杀死一个怪物，罐子里的苍蝇+1，最多20。每次使用主动时，会放出罐子里所有的苍蝇（蓝苍蝇）攻击敌人。','0','','A')
+insert into tb_isaac values(null,'dlc72.jpg','D7','D7','1充能主动，重置当前房间，使当前房间的怪物重新生成，清理完后可以获得道具充能并重新生成掉落。*可以用来无限刷掉落，不知道将来会不会被削弱……','','','A')
+insert into tb_isaac values(null,'dlc73.jpg','奶嘴','Binky','被动道具，魂心+1，射速上升，使主角体积变小，声音变细。','','','A')
+insert into tb_isaac values(null,'dlc74.jpg','肾结石','Kidney stone','被动道具，当射击时有一定几率主角会停止射击并且会变红，这段时间内主角会蓄力然后一次释放出许多眼泪，这些眼泪中有一颗肾结石眼泪，会对敌人造成大量伤害。','','','A')
+insert into tb_isaac values(null,'dlc75.jpg','闪亮的石头','Shiny rock','使房间内的宝箱石头（有X标记的）或者是下面有梯子（通向地道或黑市）的石头每10秒钟闪烁一次。','','','A')
+insert into tb_isaac values(null,'dlc76.jpg','安全剪刀','Safety scissors','当你走到即爆炸弹（陆夫人）旁边时，会使它们变成普通炸弹（基础掉落），可拾取。','','','A')
+insert into tb_isaac values(null,'dlc77.jpg','彩虹虫','Rainbow Worm','每几秒随机生效所有虫子饰品之中的一个饰品的效果，包括重生中的Whip Worm, Ring Worm, Wiggle Worm, Flat Worm, Hook Worm, Pulse Worm以及Afterbirth中的Tape Wormand Lazy Worm','','','A')
+insert into tb_isaac values(null,'dlc78.jpg','长射虫','Tape Worm','射程+29','','','A')
+insert into tb_isaac values(null,'dlc79.jpg','懒虫','Lazy Worm','子弹速度-0.4，射程+4，眼泪高度+2','','','A')
+insert into tb_isaac values(null,'dlc80.jpg','裂开的骰子','Cracked dice','每次受伤后，一定几率触发一个骰子的效果，包括D6，D8，D12，D20。','','','A')
+insert into tb_isaac values(null,'dlc81.jpg','超级磁铁','Super magnet','吸引所有的基础掉落和敌人慢慢靠近你。*对妈腿boss房间的门以及Ultra Greed房间的门也有效。','','','A')
+insert into tb_isaac values(null,'dlc82.jpg','虱','Louse','每打死一个敌人有一定几率生成一个蓝蜘蛛，帮你攻击敌人。','','','A')
+insert into tb_isaac values(null,'dlc83.jpg','电池婊','Watch Battery','增加找到电池（基础掉落）的几率。','','','A')
+insert into tb_isaac values(null,'dlc84.jpg','爆破帽','Blasting cap','爆炸的炸弹有一定几率生成一个普通炸弹（基础掉落），可拾取。','','','A')
+insert into tb_isaac values(null,'dlc85.jpg','查水表','Stud finder','目前效果不明。Reddit上认为可能和主动道具铲子有关。','','','A')
+insert into tb_isaac values(null,'dlc86.jpg','罗盘','Poker chip','使所有宝箱有50%几率额外掉落一个基础掉落，50%几率什么也没有。（待验证）','','','A')
+insert into tb_isaac values(null,'dlc87.jpg','黑羽毛','Black feather','增加找到“恶魔道具”的几率，包括Black Candle（黑蜡烛）、Ceremonial Robes（黑长袍）、Goat Head（羊头）、Match Book（火柴盒，+1黑心掉落3炸弹）MissingPage 2（遗失书页2）Safety Pin（回形针）。','','','A')
+insert into tb_isaac values(null,'dlc88.jpg','头巾','Blind rage','短暂延长受伤后的无敌时间举例：当持有该饰品时，可以利用无敌时间使用卖血机2次（原来最多1次）','','','A')
+insert into tb_isaac values(null,'dlc89.jpg','大便帽','Brown cap','使所有的大便在被打破时爆炸。','','','A')
+insert into tb_isaac values(null,'dlc90.jpg','404','Error','未知效果，以下为网友推测：能改攻击方式，似乎以层计算。使用钥匙后能回血，一定几率魅惑','','','A')
+insert into tb_isaac values(null,'dlc91.jpg','紧急联络卡','Emergency Contact','在当前房间生成两个妈手抓敌人造成伤害*如果当前房间只有一个敌人的话，则生成一个妈腿踩敌人*对boss也有效，甚至包括mom的腿和眼。','','','A')
+insert into tb_isaac values(null,'dlc92.jpg','？卡片','？Card','激活一次当前拥有的主动道具的效果（即不消耗充能使用一次当前的主动）*如果主动道具是白卡（Blank Card）：当你使用白卡时，可能会生成基础掉落、道具或什么都没有，并消耗主动道具白卡的充能。而当你使用？卡片时，？卡片会被消耗。','','','A')
+insert into tb_isaac values(null,'dlc93.jpg','脱狱卡','Get Out Of Jail Free Card','打开当前房间所有的门，相当于一次性Dad’s Key（爸爸的钥匙）*当然也可以用来开Mega Satan的大金门。','','','A')
+insert into tb_isaac values(null,'dlc94.jpg','骰子碎片','Dice Shard','在当前房间同时生成一次主动道具D6和D20的效果（roll主被动+基础掉落）。','','','A')
+insert into tb_isaac values(null,'dlc97.jpg','光之王冠','CROWN OF LIGHT','被动道具,在你没有空的心之容器时，眼泪变成蓝色的钻石的样子。当产生这个效果时，眼泪造成双倍伤害。生效时皇冠是蓝色的，未生效时是灰色的。在你受到伤害时会在当前房间立刻失效，无视你的生命值。道具池：天使房、贪婪模式天使房','','','A')
+insert into tb_isaac values(null,'dlc98.jpg','传送器 2.0','TELEPORT 2.0','主动道具，4格充能,使用后将你传送到随机一个没有探索过的房间。当所有普通房间都被探索过了，传送器2.0对目标房间的选择层次为：超级秘密房间，道具房，商店，秘密房间，诅咒房，献祭房，恶魔/天使房，错误房（I AM ERROR!）。这个顺序意味着，当其他所有房间都被探索过了，恶魔/天使房和错误房都可以强行被传送进去。如果在一个有敌人的房间使用，会将你传送出去，然后再回到这同一个房间。道具池：道具房','4','','A')
+insert into tb_isaac values(null,'dlc99.jpg','黑粉','BLACK POWDER','被动道具，跟班。走一个闭合的圈会在地上生成一个红色的五芒星阵，对在范围内的敌人造成每一跳10点的持续伤害。黑粉的轨迹会消失得很快，这意味着限制了能绘制的五芒星阵的大小。道具池：恶魔房、贪婪模式恶魔房','','','A')
+insert into tb_isaac values(null,'dlc100.jpg','着了魔的苍蝇','OBSESSED FAN','被动道具，跟班。一个追随你3秒前行进轨迹的紫色苍蝇随从，对接触到的敌人造成伤害。道具池：道具房、贪婪模式道具房','','','A')
+insert into tb_isaac values(null,'dlc101.jpg','店主的头','HEAD OF THE KEEPER','被动道具,以撒的眼泪变成金币的样子，并且在你击中敌人的时候有几率掉落金币。在炸掉已死的店主时有几率出现。道具池：金箱子、贪婪模式金箱子、死掉的店主','','','A')
+insert into tb_isaac values(null,'dlc102.jpg','爸蝇','PAPA FLY','被动道具，跟班。一个追随以撒3秒前行进轨迹的随从。会自动向它周围的敌人开火。道具池：道具房、贪婪模式道具房（其实我想把它翻译成’爸爸在飞‘，看，爸爸在飞，哈哈哈.）','','','A')
+insert into tb_isaac values(null,'dlc103.jpg','牛奶！','MILK! ','被动道具，跟班。一个跟着以撒的牛奶杯随从，在受到伤害时牛奶会洒掉。洒掉后，本房间内牛奶！会增加你的射速。道具池：道具房、贪婪模式道具房','','','A')
+insert into tb_isaac values(null,'dlc104.jpg','妈妈的盒子','MOM‘S BOX ','主动道具，4格充能使用时，随机掉落一个饰品。道具池：商店、贪婪模式商店','4','','A')
+insert into tb_isaac values(null,'dlc105.jpg','毒性冲击','TOXIC SHOCK ','被动道具,在每个房间的开始对所有敌人造成两倍于眼泪伤害的毒属性伤害。高眼泪伤害会让这个道具在有很多敌人的房间显得非常强大，因为一进房间它们就死了，可以无伤过。敌人死后分裂出来的敌人不受该道具影响。道具池：道具房','','','A')
+insert into tb_isaac values(null,'dlc106.jpg','百万豆子','MEGA BEAN','主动道具，3格充能使用时对房间内所有敌人施加石化效果，并对附近的敌人造成5点毒属性伤害，且向你面对的方向发射一道石刃波。附近的敌人在受到5点伤害后会继续受到4至6次的持续伤害，伤害值为眼泪伤害。石刃波对接触到的敌人造成10点伤害。可以用来敲开隐藏房间。道具池：道具房、贪婪模式道具房','3','','A')
+insert into tb_isaac values(null,'dlc107.jpg','黏黏炸弹','STICKY BOMBS','被动道具，如果炸弹杀死一个敌人，会生成4只蓝蜘蛛与你并肩作战。道具池：道具房、贪婪模式道具房、炸弹乞丐','','','A')
+insert into tb_isaac values(null,'dlc108.jpg','塔之诅咒','CURSE OF THE TOWER','被动道具，每次收到伤害掉落6枚陆夫人炸弹，与无政府主义者食谱（ANARCHIST‘S COOKBOOK）效果相同。因为系统将这种效果视为一种诅咒，所以黑蜡烛（BLACK CANDLE）可以移除此效果。道具池：道具房、贪婪模式道具房、诅咒房、红色宝箱','','','A')
+insert into tb_isaac values(null,'dlc109.jpg','第二名','NO.2','被动道具,小概率使你在发射眼泪的时候掉落一个粑粑炸弹。粑粑炸弹爆炸时像普通炸弹一样造成50点伤害，对房间内敌人造成10点伤害且附带眩晕效果。道具池：道具房、贪婪模式道具房','','','A')
+insert into tb_isaac values(null,'dlc110.jpg','奔奔','BUMBO','被动道具，随从.一个漂浮着的会捡周围硬币的乞丐脑袋，并且每捡6个硬币会使奔奔升级到下一阶段，注意阶段3升到4需要12个硬币。阶段2：奔奔有了身体，可以满房间乱爬。阶段3：能够与以撒同一方向地发射眼泪。阶段4：奔奔不再发射眼泪而是开始索敌，会慢慢靠近敌人并造成接触伤害。而且会随机掉落可拾取的炸弹。就算升级完毕它还是会捡钱并且给你道具，和以前的乞丐宝宝类似。','','','A')
+insert into tb_isaac values(null,'dlc111.jpg','神之肉体','GOD‘S FLESH','被动道具.你的子弹有一定几率造成缩小效果，它们会变小并逃离以撒。缩小状态下的敌人，走过去可以直接将其碾死。道具池：道具房、贪婪模式道具房','','','A')
+insert into tb_isaac values(null,'dlc112.jpg','蜘蛛体','SPIDER MOD','被动道具，随从。一个到处走的灰色蜘蛛宝宝，赋予你看到怪物血条和伤害数值化的能力。会对接触到的敌人施加随机一种异常状态，如减速、缩小、恐惧等等。为了让玩家看得更直白一些，伤害数值化所呈现的数值都是一个接近于10倍实际伤害的数字，真实伤害是显示数值的1/10。（如显示-100就是造成了10伤害）这个道具来源于Spider853，这个人是原版以撒的增强模组Spidermod的创造者，也是rebirth版本和afterbirth版本增强模块的制作团队的核心开发者之一。道具池：商店、贪婪模式商店','','','A')
+insert into tb_isaac values(null,'dlc95.jpg','空白符文','Blank Rune','随机发动一个符文的效果，或者生成一个新的Blank Rune。','','','A')
+insert into tb_isaac values(null,'','上瘾胶囊','Addicted','人物眼睛变大并剧烈抖动，其他效果不明。','','','A')
+insert into tb_isaac values(null,'','感染胶囊','Infested!','摧毁当前房间所有大便，并且在所有大便的位置和以撒脚下生成一个蓝蜘蛛。','','','A')
+insert into tb_isaac values(null,'','感染胶囊?','Infeste?','在主角身边生成3个蓝蜘蛛。','','','A')
+insert into tb_isaac values(null,'','变小胶囊','One makes you small','使主角体积变小，声音变细，并减少实际碰撞判定体积。','','','A')
+insert into tb_isaac values(null,'','变大胶囊','One makes you larger ','使主角体积变大，声音变粗，并增加实际碰撞判定体积。','','','A')
+insert into tb_isaac values(null,'','圣饼胶囊','Percs','在当前房间获得圣饼的效果。','','','A')
+insert into tb_isaac values(null,'','力量胶囊','Power Pill','在当前房间激活一次The Gamekid（主动道具游戏机）的效果。','','','A')
+insert into tb_isaac values(null,'','大便胶囊','Re-Lax','在地上随机生成八坨大便（过程中如果移动主角的位置，生成大便的数量会减少）。','','','A')
+insert into tb_isaac values(null,'','模糊胶囊','Retro Vision','在30秒内使当前屏幕变模糊3次。','','','A')
+insert into tb_isaac values(null,'','迷失胶囊','??? ','在当前层获得Curse of theMaze（迷失诅咒）。','','','A')
+insert into tb_isaac values(null,'dlc96.jpg','黄金之心','Gold heart','通过挑战XXXXXXXXL解锁。获得时会附在主角的最后一颗心上（加上金边）。之后如果主角损失1血，则该金心将损失并掉落大量金钱。*不算额外的心之容器，而是附在最后一颗心上。*无法代替周围其他心的消耗（可能是指不能用来充当恶魔房交易的替代品）。*在贪婪模式，即使未解锁金心也可能遇到它（可能是bug）。*当通过献血机或主动道具便携式献血机、刀片等消耗红心时，不会消耗金心。*如果当前血量为12魂心或黑心，先得到金心然后获得一个心之容器，则金心不会在面板上显示，但效果仍然存在。','','略','A')
 insert into tb_isaac_boss values(null,'boss_1.jpg','萌死戳','Monstro','和原版没有区别，血量少，依然是短跳追击，大跳飞跃，时常用自己萌萌的肺吐一片红色弹幕，这个没什么好说的了额，大家应该都会打。粉色变体是两只小的，但是重生里面小萌死戳的弹幕没有减半，所以难度其实是增加了，请注意','5');
 insert into tb_isaac_boss values(null,'boss_2.jpg','双子','Gemini','仅出现在Basement和原版没有区别，血量少，P1本体追击，连体小孩自机狙，P2本体死过后小孩会发怒加速追击玩家。但是由于重生地图和原版不同，进门后请快速反应，因为可能会被开场卡位，影响无伤成就和天使恶魔等！绕场若干周就可以了，很简单的boss。变体大的速度会快一些，小的慢很多','6');
 insert into tb_isaac_boss values(null,'boss_3.jpg','史蒂文','Steven','仅出现在Basement和原版依然没有区别，血量少，P1本体追击，连体小孩自机狙，过一段时间过后（不需要本体死亡）进入P2，小孩发怒追击，本体正常攻击，打法基本同Gemini','6');
@@ -712,6 +834,16 @@ insert into tb_isaac_boss values(null,'boss_53.jpg','以撒','Issac','以撒真�
 insert into tb_isaac_boss values(null,'boss_54.jpg','小蓝人','？？？','小蓝人在重生里面的难度相当高，感觉相对于道具的丰富化来说这个强化是非常合理的，而且和打以撒的战斗的确有比较大的不同，也是相当刺激的boss战~解锁end 14,P1连续释放3个平行自机狙弹，有一定概率是跟踪弹，频率和以撒差不多，伴随连续的旋转12方向弹，明显比以撒的P1难,P2失去三分之一生命值后进入P2，小蓝人站起，出现两只护身苍蝇（永恒苍蝇），不断召唤各种苍蝇环绕他，P1弹幕持续，这一阶段画面已经有点乱了，当然有粪臭素再说了……小蓝人有没有分裂弹这个不太清楚,P3 失去三分之二生命值后进入P3，小蓝人飞起，召唤苍蝇频率变高，同时每过一段时间会瞬移一次（一般直接瞬移到玩家脸上= =简直神烦），同时除了永恒苍蝇外脱离轨道自由追击玩家，P3如果不能快速通过会非常麻烦，因为瞬移相当于一个软狂暴，几乎不可闪躲','8');
 insert into tb_isaac_boss values(null,'boss_55.jpg','羊总','The Lamb','黑暗关的boss，个人觉得水水的，而且技能没有小蓝人厉害……可能是因为每次打到那里状态都比较好？解锁end 15,,P1各种弹幕：2-4发平行的自机狙，可能跟踪；一大片小吐根；方向旋转的密集4方向弹；分裂弹；旋转十字磺火等等等等，会产生弹幕瓢虫。虽然看起来画面很美，其实不是很难躲了，毕竟小子弹，判定比较小……,P2生命值降到一半时会进入P2，头和身子分开。头会追逐玩家，释放磺火，固定方向约1s后会朝玩家方向旋转；同时头可以释放大量大跟踪弹（这个好难躲的说……）。身子不会移动，会不断召唤红苍蝇和释放大量弹幕（类似萌死戳），百科说不会跟踪，但是为什么我看到的都是紫色并且跟踪的……幻觉么？另外打掉身子会有一段时间的黑暗，离开boss房依然有效。','9');
 insert into tb_isaac_boss values(null,'boss_56.jpg','撒旦完全体','Mega Satan','整个游戏的最终boss，也是最难boss，没有之一！解锁end 16,P1撒旦在竖直两格地图的上端，技能主要如下：正下方的大型磺火，大概有地图三分之一宽；随机的全屏幕子弹（从上面落下）；用左右手锤地板，产生类似于Adversary的地震效果，可能一次（玩家位置），可能连续（产生向前的冲击波）；方向变化的弹幕墙；若干方向的3平行自机狙等等……如果有肉妹的话可以偏转弹幕，那低速的弹幕都随意了~同时撒旦会随即召唤小七宗罪。把头打掉可以暂时结束一个阶段，每个阶段目测2000-3000血吧？期间手会保护头。第一次打掉头会出Famine和Pestilence，清理后再出War和Death。第二次打掉会出大七宗罪的6个，按照2+4的顺序出，具体出什么可能不一定吧。第三次依次出两个堕天使（天使房炸雕像出的天使），但是血量明显多，技能不变。清掉3波过后终于进入P2,P2 一阶段结束后撒旦短时间遁入黑暗，然后以骷髅形式出现，进入P2。P2难度明显降低了，毕竟只有一个人，弹幕有些类似妈心，血量和P1每一次的血量差不太多吧……可能多一点。听说Hard难度下撒旦会有环绕的保护弹幕，没打过表示不知道……','10');
+insert into tb_isaac_boss values(null,'dlc_b1.jpg','绷带人','Rag Man','技能介绍：1.将头丢向玩家，头在丢出后会继续向玩家滚动一小段距离，后变成Ragling变体（只有特技差异，技能完全一致），一小段时间后头会重新出现；2.快速连续发射1-5颗跟踪弹； 3.经过Ragling尸体的时候会回收并回复一定血量，可以观察到血条变成橙色。打法建议： 主要负责卖萌的boss，由于Ragling跳的很鬼畜相信大多数玩家都会优先打掉，主要需要注意的一点就是跟踪弹，因为速度很快近身难以躲避，所以请与boss保持一定距离，大概3-5个身位就可以扭开，因人而异。','7');
+insert into tb_isaac_boss values(null,'dlc_b2.jpg','霍恩','Little Horn','技能介绍：1.会比Loki更加明显地躲避玩家；2.产生一个黑色的烟雾球，会（符合物理学地）追逐以撒，可以摧毁；3.脚下挖洞，跳到其他地方；4.产生三方向的移动地洞，命中玩家会使玩家掉进去并在其他地方出现，对飞行无效；5.连续（3次）在脚下挖洞，跳到其他地方并在原来的地方放置一颗即爆炸弹（可能生成疾走陆夫人）。打法建议：1.第一时间打掉黑球，如果场上有两个以上的黑球会很难躲；2.炸弹什么的，随便扭扭就好了，别太当回事，多数情况下都是炸到他自己w','7');
+insert into tb_isaac_boss values(null,'dlc_b3.jpg','玉米翔君','Dangle','技能介绍：1.吹口哨：召唤三个小翔玉米变体（速度更快），发射三方向（玉米粒）弹幕；2.迷の微笑：发射三方向（玉米粒）弹幕；3.生气：连续冲撞两次，每次冲撞前排气（x）一次，或发射八方向弹幕，并在路径上留下翔色液体，玩家踩在上面会有魔鬼的步伐，请小心地（de）滑，如果其处于中毒状态，则路径变为绿色，会造成伤害。冲撞结束后会休息一小段时间。打法建议：1.小翔请务必打掉，这种Dip变体速度较快，有较大的潜在危险；2.冲撞勾引需要练习，大家加油。','7');
+insert into tb_isaac_boss values(null,'dlc_b4.jpg','便便咯咯','Turdlings','技能介绍：1.在与玩家处于同一水平线或竖线时冲刺玩家，留下滑溜溜的翔色路径；2.每次冲刺后，产生四个Dip玉米变体（速度更快）。打法建议：跟Gurglings（姨妈咯咯）类似','7');
+insert into tb_isaac_boss values(null,'dlc_b5.jpg','脆弱者','The Frail','技能介绍：一阶段：石虫形态,同Pin，只有一半的血条，当第一管血条消耗完后会进入第二形态。二阶段：骷髅虫形态,从地下跳出，跳向玩家，发射十字（或X型）4方向弹幕，每一颗会进一步裂分成4方向弹幕；伸出头，向玩家发射硫磺火，会随着玩家移动快速旋转；伸出尾，抛射一大片白色弹幕，并在地上留下白色减速痕迹。打法建议：时刻注意与Frail的位置！一般情况下稍微原理boss防止被分裂弹幕击中或者直接撞一脸，在看到冒出来头的时候以最快的速度靠近Frail，绕着转，因为磺火旋转速度非常快，所以远离的时候几乎无法躲避。','8');
+insert into tb_isaac_boss values(null,'dlc_b6.jpg','遗弃者','The Forsaken','技能介绍：1.产生一只Bony(移动缩头骷髅)，Bony在场上的时候Forsaken处于透明无敌状态；2.Bony死后发射三方向旋转硫磺火，一段时间后产生新的Bony。打法建议： 1.其实你们主要的时间都浪费在扭Bony了对吧说实话！2.需要注意的依然是旋转磺火，在打完Bony后站在Boss近身左侧或者右侧，磺火一般是头朝上或朝下的三角方向，所以一开始左右一般是安全的，然后依然是跟着快速旋转，其实跟妈心的玩法有相似之处','8');
+insert into tb_isaac_boss values(null,'dlc_b7.jpg','玷污者','The Stain','技能介绍：1.当玩家不在其附近是钻到地下，玩家接近时钻出；2.发射多组多方向弹幕，弹幕在接近距离极限时射速会变慢；3.向左右伸出触♂手，并留下姨妈；打法建议：1.当Boss在地下时请务必慢慢走，撞脸是常有的事，lost飞起来也是常有的事，大家习惯就好；2.站在上下攻击，弹幕的话……其实挺短的，初见杀，冷静点问题都不大。3.其实主要问题都是血厚……容错量会很低……','8');
+insert into tb_isaac_boss values(null,'dlc_b8.jpg','甜甜布朗尼','Brownie','技能介绍：1.每受到一次伤害就产生一个Dip玉米变体（速度更快），高射速没穿透的末日；2.间断跳跃并发射8方向玉米粒弹幕，持续留下滑溜溜的翔色路径；3.死亡时重生为Dangle(玉米翔君)，血量非常少（100？）打法介绍：噫这就是新一代的肉山，一顿乱打就行了，主要是呕熏。救命。','8');
+insert into tb_isaac_boss values(null,'dlc_b9.jpg','终极贪婪','Ultra Greed','Greed（贪婪）模式最终boss。技能介绍：1.被其任何技能击中会损失金币，任何地上的金币碰到其都会被吃掉；2.原地连续跺脚，不断产生Keepers(贪婪的头)；3.在与玩家处于同一水平线或竖线时短暂蓄力并追击玩家；4.发射4方向或5方向抛射大量弹（撒）幕（币）；5.停在原地，双眼开启老虎机模式，roll出以下几种可能：炸弹+炸弹，场地上产生大量钱币（没有体触伤害），不及时打掉会发生较大的爆炸；心+心，场地上产生大量钱币，不及时打掉会给贪婪回复一小部分生命值；钥匙+钥匙，场地上产生大量钱币，不及时打掉每一个钱币会变成一个钥匙，打开场地四周的门，产生成吨的Greed Gaper（太魔性了哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈），同时贪婪将获得极高的抗性直至所有Gaper被消灭；两眼不同，场地上会产生大量旋转的钱币，但是什么都不会发生。打法建议：Boss的弹幕本身很好躲，不用太担心弹幕； 钱币的话钥匙一定要最快打掉，否则成吨的Gaper会非常卡位甚至造成连续伤害，炸弹打不掉可以躲一躲，心的话打不掉就别打了；打法建议：关于Hush的打法都可以单独开一个讨论帖了！我就不说啥了吧！大家随便吐槽就好！（懒）（你说出来干嘛）血量机制同不确定，可能是根据前面小蓝人形态的战斗变化的，下限似乎是6666','9');
+insert into tb_isaac_boss values(null,'dlc_b10.jpg','蓝凹凸','Hush','蓝子宫隐藏Boss。技能介绍：一到三阶段：小蓝人形态,以小蓝人形态与玩家战斗，其技能与三个阶段与小蓝人完全一致。四阶段：本体形态一（100% HP）Wiki原文：“发射地狱般的鬼畜弹幕，非常难以躲避”；召唤一大群石苍蝇，血量远远高于一般的苍蝇；召唤一大群Hush Gaper，其血量远远高于一般Gaper；五阶段：本体形态二（66%或50%？ HP）在四阶段的基础上增加穿墙弹幕，会向一边发射慢速的扭动弹幕，在打到一面墙后会从另一边墙出现，速度极大地提升，形成左右不同速度的扭动弹幕；六阶段：本体形态三（25%或20%？ HP）在五阶段的接触上增加龙卷风，产生两道水龙卷，会以极快的速度迅速追逐玩家，速度大约为1.5;六阶段的龙卷风不会与穿墙弹幕同时出现。            ','10');
 insert into tb_isaac_small values(null,'small_11.jpg','黑苍蝇','Black Flay','黑苍蝇 基本在 Basement 1、2中出现  打爆苍蝇公爵后也会现身 不会主动攻击角色 最基本的小怪之一');
 insert into tb_isaac_small values(null,'small_22.jpg','攻击苍蝇','Attack Fly','会主动攻击你 黑苍蝇大多基本角色以撒一发眼泪搞定 而这个基本是两发左右... 移动速度不是很快 所以也不用太担心 出没于 Basement 和Cave （第三四层）中 危险系数比较低 属于基本怪之一');
 insert into tb_isaac_small values(null,'small_33.jpg','双生苍蝇','Moter',' 被打之后会分成2个攻击苍蝇对角色进行攻击 怎么说呢....很安全 但是很麻烦 有时候走位失误就会在它分体的时候被碰到 不过习惯后就不会产生失误了, 危险系数较低 绿色的变异苍蝇公爵喷的就是这个 我建议是不要打 不然打散后 会变得很多 到时候手忙脚乱 大触就不要在意了。。');
@@ -733,15 +865,13 @@ insert into tb_isaac_small values(null,'small_13.jpg','炸弹人？','Mulliboom'
 insert into tb_isaac_small values(null,'small_14.jpg','蝇人','Hive','会主动喷发苍蝇攻击角色 其实危险系数不是很大 但是苍蝇多后 可能会手忙脚乱 但是以撒的结合只要你hold住性子 就基本能躲过大多数弹幕 出现在Cave 和Depth中');
 insert into tb_isaac_small values(null,'small_15.jpg','苍蝇头','Swarmer','我不是很喜欢这个怪... 如果你快速击中它但没有彻底消灭 他会鬼畜的吐出各种苍蝇 死后出现爆炸苍蝇 但是三个Swarmer出现后 其中一个死后会出现红色爆炸苍蝇 大多出现在Depth中 危险系数中');
 insert into tb_isaac_small values(null,'small_16.jpg','跳跳','Hopper','蹦跳的小怪 虽然和Trite一样会跳 但是距离并没有Trite远 出现在Basement中 对于玩家而言属于可以虐的那种怪 但是它会出现变体 触碰火之后...你懂的 这个变体马上就会讲到 危险系数低 ');
-insert into tb_isaac_small values(null,'','火跳跳','Flaming Hopper','因为碰到了火所以蹦的更远更高了...这么想想还有点小科学..【啊喂，闹哪样这是！！】
-Hopper碰到火篝后就会变身成这样 危险系数有所增幅 因为血厚了嘛【貌似是诶】 蹦跳距离有变化 请小心 出现在Basement Cave中');
+insert into tb_isaac_small values(null,'','火跳跳','Flaming Hopper','因为碰到了火所以蹦的更远更高了...这么想想还有点小科学..【啊喂，闹哪样这是！！】Hopper碰到火篝后就会变身成这样 危险系数有所增幅 因为血厚了嘛【貌似是诶】 蹦跳距离有变化 请小心 出现在Basement Cave中');
 insert into tb_isaac_small values(null,'small_38.jpg','血跳跳','Leaper','Leaper出现在Depth中 攻击方式有2种 一种同Hopper 即蹦跳 距离比较短 第二种是跟踪你的位置瞬间跳跃到你的位置 同时喷射4方向弹幕 总的来说 这种怪已经比较使人烦躁了 特别它会配合一些其他喷射弹幕的小怪出现 危险系数中 建议多多适应');
 insert into tb_isaac_small values(null,'small_39.jpg','无头人','Pacer也是基础怪之一','Pacer也是基础怪之一 速度慢 同时不会主动攻击角色 属于以撒游戏中让新手玩家适应的怪 危险系数低 出现在Basement中');
 insert into tb_isaac_small values(null,'small_40.jpg','喷血人','Gusher','Gusher与Pacer同属于适应怪之一 虽然会喷射弹幕 可惜..命中率不太高【也太低了吧！】 危险系数低 出现在Basement中');
 insert into tb_isaac_small values(null,'small_41.jpg','吉娃娃','Gaper','Gaper小童鞋 多么可爱的娃娃啊 基础怪之一 只会跟着角色移动 通过触碰产生伤害 危险系数低但死后可能会产生Pacer或Gusher中的一种 要小心喔 出现在Basement中');
 insert into tb_isaac_small values(null,'small_42.jpg','睡娃娃','Frowning Gaper','Frowning Gaper 与普通Gaper不同的是 移动速度上有提升 其他与Gaper基本相同 会追击 会死后产生分裂 危险系数低 出现在Basement中');
-insert into tb_isaac_small values(null,'small_43.jpg','绿色炸弹人,'Gurgle','Gurgle 喷绿色爆炸弹的小人 会跟随玩家吐弹幕速度较慢 但如果太近身 爆炸速度会变得很快 【跟落地时间和碰撞时间有很大关系...】 六魂似乎在某视频里说到这货不怕炸弹...是我听错了么 证实下来是 吐根 婴儿博士 史诗婴儿的攻击方式都能有效造成伤害 【咳咳或者说秒杀】
-危险系数中←跟地图有很大关系 你懂的 出现在Depth中');
+insert into tb_isaac_small values(null,'small_43.jpg','绿色炸弹人','Gurgle','Gurgle 喷绿色爆炸弹的小人 会跟随玩家吐弹幕速度较慢 但如果太近身 爆炸速度会变得很快 【跟落地时间和碰撞时间有很大关系...】 六魂似乎在某视频里说到这货不怕炸弹...是我听错了么 证实下来是 吐根 婴儿博士 史诗婴儿的攻击方式都能有效造成伤害 【咳咳或者说秒杀】危险系数中,跟地图有很大关系 你懂的 出现在Depth中');
 insert into tb_isaac_small values(null,'small_45.jpg','喷头人','Mr.Maw','Mr.Maw 呃 这名字 好吧 我不吐槽了 【动物的胃..】 能把头喷射出去的神奇小怪 这边友情提醒下 有Max的头道具的 就是狗头的要小心 因为击退的原因可能会在它头弹出的一瞬间 由于击退 反而打到自己身上 【这边顺便问下 有没有人觉得..参孙的击退很高的...求回答讨论】第一次击杀后会将头分裂 成为一个会喷射弹幕的小怪 一段时间不击杀Mr.Maw 会主动分裂成Pacer和Maw 危险系数中 出现在Depth中');
 insert into tb_isaac_small values(null,'small_46.jpg','Horf','Horf','Basement中的怪 会喷射单方向弹幕，躲在旮旯里恶心人');
 insert into tb_isaac_small values(null,'small_48.png','红头','Red Maw','制作人 你还可以再省点想名字的时间么... 不同于原版Maw 它只会跟随角色的移动方向 但速度较Maw有所加强 不会主动喷射弹幕 但死后会产生四方向弹幕 危险系数低 出现在Depth中 话说挑战房中的怪...我要不要也说下');
@@ -824,4 +954,4 @@ insert into tb_other values(null,'roob_8.jpg','卧室','Bedrooms','卧室位于�
 insert into tb_other values(null,'roob_10.jpg','老式宝物房','Retro Treasure Rooms','一般通过卧室的梯子进入，摧毁石头有可能打开通往宝物房的活板门，使用主动道具我们要去更深处！(We Need To Go Deeper!)也有可能打开通往老式宝物房的门。','3')
 insert into tb_other values(null,'roob_11.jpg','黑市','Black Markets','黑市通过老式宝物房间进入。黑市有普通房间的两倍大，通常有5个道具，可以用心之容器来换取这些道具。用心之容器换取这些道具不算做恶魔交易但是同样可以解锁阿萨谢尔。另外半边房间有三个乞丐。黑市有几率打开一个直接通往下一层的入口。','3')
 insert into tb_other values(null,'roob_21.png','ERROR房','I Am Error Room','ERROR只能通过传送胶囊(Teleport)和主动道具未定义（Undefined）传送进入。ERROR房包含一个通往下一层的入口。离开ERROR房的唯一方法就是传送出去。ERROR房可能会出现：2坨金翔、大约15个硬币和1个免费道具、12个胶囊、2个随机道具、每种类型的心和一个道具、两对钥匙和钥匙乞丐、4个饰品和1个道具。','3')
-insert into tb_other values(null,'roob_22.png','最终BOSS房间','Mega Satan','这个房间是只出现在宝箱关或者黑暗层。房间被一扇金色大门锁着。打开这扇门需要从堕天使BOSS那里获得两截钥匙碎片或者拥有主动道具爸爸的钥匙（Dad's Key）。门一旦被打开玩家将要面对最后的BOSS Mega Satan。房间的中间有一个五角星。Mega Satan会出现在房间的顶部，房间中央的五芒星会恢复Mega Satan的血量。','3')
+insert into tb_other values(null,'roob_22.png','最终BOSS房间','Mega Satan','这个房间是只出现在宝箱关或者黑暗层。房间被一扇金色大门锁着。打开这扇门需要从堕天使BOSS那里获得两截钥匙碎片或者拥有主动道具爸爸的钥匙（Dad''s Key）。门一旦被打开玩家将要面对最后的BOSS Mega Satan。房间的中间有一个五角星。Mega Satan会出现在房间的顶部，房间中央的五芒星会恢复Mega Satan的血量。','3')

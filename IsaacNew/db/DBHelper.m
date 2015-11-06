@@ -96,6 +96,15 @@ static const NSString *TB_MODSEED = @"tb_modseed";
         success(YES);
     }
 }
+-(void)deleteData{
+    if(![db open]){
+        return;
+    }
+    [db executeUpdate:[NSString stringWithFormat:@"delete from %@ ",TB_ISAAC]];
+    [db executeUpdate:[NSString stringWithFormat:@"delete from %@ ",TB_BOSS]];
+    [db executeUpdate:[NSString stringWithFormat:@"delete from %@ ",TB_SMALL]];
+    [db close];
+}
 -(void)initModSeedData:(BOOLCallBack)success{
     NSArray *aArray = [@"other.db" componentsSeparatedByString:@"."];
     NSString *filename = [aArray objectAtIndex:0];
@@ -318,6 +327,29 @@ static const NSString *TB_MODSEED = @"tb_modseed";
     [db close];
     return ret;
 }
+-(NSMutableArray *)getBossByKey:(NSString *)keyword{
+    NSMutableArray *ret = [[NSMutableArray alloc] init];
+    if(![db open])
+    {
+        return ret;
+    }
+    FMResultSet *rs = [db executeQuery:[NSString stringWithFormat:@"select * from %@ where image like '%%%@%%' ",TB_BOSS,keyword]];
+    BossBean *bean;
+    while ([rs next]) {
+        NSDictionary *dict = [rs resultDictionary];
+        bean = [[BossBean alloc] init];
+        bean.image = dict[@"image"];
+        bean.name = dict[@"name"];
+        bean.enName = dict[@"enname"];
+        bean.content = dict[@"content"];
+        bean.score = dict[@"score"];
+        [ret addObject:bean];
+    }
+    [rs close];
+    [db close];
+    return ret;
+}
+
 -(NSMutableArray *)getSmall:(NSString *)offset{
     NSMutableArray *ret = [[NSMutableArray alloc] init];
     if(![db open])

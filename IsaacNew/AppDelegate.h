@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Ver2Controller.h"
-#import <ChameleonFramework/Chameleon.h>
+#import "Common.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

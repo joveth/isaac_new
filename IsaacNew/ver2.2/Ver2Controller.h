@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "Common.h"
-#import <ChameleonFramework/Chameleon.h>
 #import "IsaacTableViewController.h"
 #import "BossController.h"
 #import "SmallController.h"
@@ -22,6 +21,8 @@
 #import "AboutMeActivity.h"
 #import "MessageViewController.h"
 #import "QuickLookController.h"
+#import "DLCController.h"
+
 @interface Ver2Controller : UIViewController<UIGestureRecognizerDelegate>
 
 @end

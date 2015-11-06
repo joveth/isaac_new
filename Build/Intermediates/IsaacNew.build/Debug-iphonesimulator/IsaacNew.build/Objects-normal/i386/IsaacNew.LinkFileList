@@ -3,6 +3,7 @@
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/BossBean.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/SeedController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/CALayer+PKConvenienceAnimations.o
+/Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/QuickLookController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/PKSequentialAnimation.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/MessageViewController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/WebService.o
@@ -14,10 +15,12 @@
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/UIViewController+PKRevealController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/WebController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/PKLog.o
+/Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/DLCController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/Ver2Controller.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/HomeController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/BossController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/PKLayerAnimator.o
+/Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/PopoverView.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/Common.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/main.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/BossFlowLayout.o
@@ -44,5 +47,6 @@
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/AboutMeActivity.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/User.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/MoreOther.o
+/Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/DLCNewBossController.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/PKAnimation.o
 /Users/shuwei/works/teme/IsaacNew/Build/Intermediates/IsaacNew.build/Debug-iphonesimulator/IsaacNew.build/Objects-normal/i386/ShowSearchController.o

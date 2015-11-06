@@ -42,14 +42,14 @@
     CGFloat line = size.width/width;
     line = [self clcLine:line];
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(8, 66, self.view.frame.size.width-16, line*size.height)];
-    label.textColor=FlatBlack;
+    label.textColor=[UIColor blackColor];
     label.numberOfLines=0;
     label.lineBreakMode=NSLineBreakByWordWrapping;
     label.text=text;
     label.font=[UIFont systemFontOfSize:14];
     [self.view addSubview:label];
     UILabel *ln = [[UILabel alloc] initWithFrame:CGRectMake(0, line*size.height+74, self.view.frame.size.width, 1)];
-    ln.backgroundColor=FlatGray;
+    ln.backgroundColor=[Common colorWithHexString:@"8a8a8a"];
     [self.view addSubview:ln];
     msg = [[UITextView alloc] initWithFrame:CGRectMake(8, line*size.height+76, self.view.frame.size.width-16, 120)];
     msg.delegate=self;
@@ -57,8 +57,8 @@
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(0, line*size.height+206, self.view.frame.size.width, 44)];
     [btn setTitle:@"发送" forState:UIControlStateNormal];
-    [btn setTitleColor:FlatWhite forState:UIControlStateNormal];
-    btn.backgroundColor=FlatRed;
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    btn.backgroundColor=[Common colorWithHexString:@"eb4f38"];
     [btn addTarget:self action:@selector(sendBtn:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"发送" style:UIBarButtonItemStyleBordered target:self action:@selector(sendBtn:)];

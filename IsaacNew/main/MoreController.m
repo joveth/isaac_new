@@ -37,7 +37,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if(section==0){
-        return 3;
+        return 4;
     }else{
         return 1;
     }
@@ -73,6 +73,8 @@
         cell.textLabel.text=@"捐款机&献血机";
     }else if(indexPath.section==0&&indexPath.row==2){
         cell.textLabel.text=@"猫套&苍蝇套";
+    }else if(indexPath.section==0&&indexPath.row==3){
+        cell.textLabel.text=@"以撒的故事";
     }
     else {
         cell.textLabel.text=@"更新、计划、那人";
@@ -87,9 +89,16 @@
     [self.navigationItem setBackBarButtonItem:backItem];
     [self.navigationItem.backBarButtonItem setTintColor:[UIColor whiteColor]];
     if(indexPath.section==0){
-        MoreOther *show =[[MoreOther alloc] init];
-        [ShareData shareInstance].type=[NSString stringWithFormat:@"%ld",(indexPath.row+1)];
-        [self.navigationController pushViewController:show animated:YES];
+        if(indexPath.row==3){
+            WebController *show = [[WebController alloc] init];
+            [ShareData shareInstance].urltype=@"http://joveth.github.io/isaac_new/story.html";
+            show.title=@"以撒的故事";
+            [self.navigationController pushViewController:show animated:YES];
+        }else{
+            MoreOther *show =[[MoreOther alloc] init];
+            [ShareData shareInstance].type=[NSString stringWithFormat:@"%ld",(indexPath.row+1)];
+            [self.navigationController pushViewController:show animated:YES];
+        }
     }else{
         WebController *show = [[WebController alloc] init];
         [ShareData shareInstance].urltype=@"http://joveth.github.io/isaac_new/index.html";

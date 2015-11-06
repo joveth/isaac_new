@@ -20,4 +20,8 @@ dependencies: /Users/shuwei/works/teme/IsaacNew/IsaacNew/main.m \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/AboutMeActivity.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/MessageViewController.h \
   /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/QuickLookController.h \
-  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/ShowSearchController.h
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/ShowSearchController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/DLCController.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/view/PopoverView.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/main/MoreOther.h \
+  /Users/shuwei/works/teme/IsaacNew/IsaacNew/ver2.2/DLCNewBossController.h

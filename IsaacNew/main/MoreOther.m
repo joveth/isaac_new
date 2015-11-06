@@ -23,8 +23,9 @@
     if(type==nil){
         type=@"1";
     }
-    self.title = @"Boss Rush";
-    if([type isEqualToString:@"2"]){
+    if([type isEqualToString:@"1"]){
+        self.title = @"Boss Rush";
+    }else if([type isEqualToString:@"2"]){
         self.title = @"捐款机&献血机";
     }else if([type isEqualToString:@"3"]){
         self.title = @"猫套&苍蝇套";

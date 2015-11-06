@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "SKPSMTPMessage.h"
-#import <ChameleonFramework/Chameleon.h>
 #import "MBProgressHUD.h"
 #import "Common.h"
 @interface MessageViewController : UIViewController<UITextViewDelegate,SKPSMTPMessageDelegate>
