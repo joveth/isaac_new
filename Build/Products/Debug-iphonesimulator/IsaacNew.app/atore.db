@@ -684,7 +684,7 @@ insert into tb_isaac values(null,'dlc24.jpg','骷髅帽','Host Hat','被动道�
 insert into tb_isaac values(null,'dlc25.jpg','刷新','Restock','被动道具，在商店里购买物品后，会在原来物品的位置重新生成一个可购买的物品。*贪婪模式初始锁定道具，但你仍可在贪婪模式获得该物品。','','','A')
 insert into tb_isaac values(null,'dlc26.jpg','蜘蛛的爱','Bursting Sack','被动道具，蜘蛛不再攻击主角，并且对主角无伤害。','','','A')
 insert into tb_isaac values(null,'dlc27.jpg','Pupula duplex','Pupula duplex','被动道具，子弹变为弓形并变宽，并使子弹可以穿越障碍物。','','','A')
-insert into tb_isaac values(null,'dlc26.jpg','有钱任性','Pay to play','被动道具，金钱+5，所有需要1钥匙的门改为需要1硬币开启。*影响商店，宝箱房，图书馆等。','','','A')
+insert into tb_isaac values(null,'dlc28.jpg','有钱任性','Pay to play','被动道具，金钱+5，所有需要1钥匙的门改为需要1硬币开启。*影响商店，宝箱房，图书馆等。','','','A')
 insert into tb_isaac values(null,'dlc29.jpg','伊甸的祝福','Eden’s Blessing','被动道具，射速上升，使你下一局游戏随机获得一个新的道具。*不确定使用种子的情况下是否有效。','','','A')
 insert into tb_isaac values(null,'dlc30.jpg','好个球','Friendly Ball','4充能主动，对小怪使用可以捕捉它，再激活主动时可以放出该小怪，它将作为友军攻击其他敌人。*离开房间或下层后友军仍将保留，直到它受到足够多的伤害。','4','','A')
 insert into tb_isaac values(null,'dlc31.jpg','泪弹','Tear Detonator','1充能主动，使用后使当前屏幕上主角射出的眼泪分裂为6方向的眼泪。','1','','A')
